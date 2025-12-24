@@ -1,0 +1,436 @@
+{
+  "pilgrimageSites": [
+    {
+      "id": "pilg-001",
+      "name": "Temple of the Sacred Tooth Relic",
+      "location": "Kandy",
+      "religion": "Buddhist",
+      "significance": "Most sacred Buddhist temple in Sri Lanka, housing the tooth relic of Lord Buddha",
+      "description": "The Temple of the Sacred Tooth Relic is a UNESCO World Heritage Site and the most important Buddhist temple in Sri Lanka. It houses the sacred tooth relic of Lord Buddha, making it a significant pilgrimage destination for Buddhists worldwide.",
+      "history": "Built in the 16th century by King Vimaladharmasuriya I, the temple has been a center of Buddhist worship and Sri Lankan culture for centuries.",
+      "rituals": [
+        "Daily pooja ceremonies",
+        "Esala Perahera festival",
+        "Morning and evening prayers",
+        "Almsgiving ceremonies",
+        "Meditation sessions"
+      ],
+      "bestTimeToVisit": "Year-round, especially during Esala Perahera (July-August)",
+      "visitingHours": "5:30 AM - 8:00 PM",
+      "entranceFee": 1500,
+      "currency": "LKR",
+      "dressCode": "Modest clothing, white preferred",
+      "facilities": [
+        "Prayer halls",
+        "Museum",
+        "Gift shop",
+        "Restrooms",
+        "Parking",
+        "Guided tours"
+      ],
+      "nearbyAttractions": [
+        "Kandy Lake",
+        "Royal Botanical Gardens",
+        "Kandy Cultural Center",
+        "Bahirawakanda Temple"
+      ],
+      "accommodation": [
+        "Heritage hotels",
+        "Buddhist guesthouses",
+        "Meditation centers",
+        "Traditional homestays"
+      ],
+      "transportation": [
+        "Train from Colombo",
+        "Bus services",
+        "Private vehicle",
+        "Tuk-tuk services"
+      ],
+      "image": "/images/pilgrimage/temple-tooth-relic.jpg",
+      "rating": 4.8,
+      "reviews": 1247,
+      "accessibility": "Wheelchair accessible",
+      "languages": ["English", "Sinhala", "Tamil"],
+      "guideServices": true,
+      "photography": "Allowed in designated areas"
+    },
+    {
+      "id": "pilg-002",
+      "name": "Anuradhapura Sacred Bo Tree",
+      "location": "Anuradhapura",
+      "religion": "Buddhist",
+      "significance": "Oldest documented tree in the world, grown from a cutting of the original Bodhi tree under which Buddha attained enlightenment",
+      "description": "The Sacred Bo Tree (Jaya Sri Maha Bodhi) is the oldest documented tree in the world, planted in 288 BC. It's grown from a cutting of the original Bodhi tree under which Lord Buddha attained enlightenment in India.",
+      "history": "Brought to Sri Lanka by Sanghamitta, daughter of Emperor Ashoka, and planted by King Devanampiya Tissa in 288 BC.",
+      "rituals": [
+        "Daily offerings",
+        "Meditation under the tree",
+        "Circumambulation (pradakshina)",
+        "Buddhist chanting",
+        "Flower offerings"
+      ],
+      "bestTimeToVisit": "Year-round, early morning recommended",
+      "visitingHours": "5:00 AM - 9:00 PM",
+      "entranceFee": 25,
+      "currency": "USD",
+      "dressCode": "White clothing preferred, modest dress required",
+      "facilities": [
+        "Prayer platforms",
+        "Meditation areas",
+        "Offering counters",
+        "Restrooms",
+        "Parking",
+        "Information center"
+      ],
+      "nearbyAttractions": [
+        "Ruwanwelisaya Stupa",
+        "Jetavanaramaya",
+        "Abhayagiri Monastery",
+        "Isurumuniya Temple"
+      ],
+      "accommodation": [
+        "Buddhist guesthouses",
+        "Heritage hotels",
+        "Meditation centers",
+        "Traditional lodges"
+      ],
+      "transportation": [
+        "Bus from Colombo",
+        "Train to Anuradhapura",
+        "Private vehicle",
+        "Local tuk-tuk"
+      ],
+      "image": "/images/pilgrimage/sacred-bo-tree.jpg",
+      "rating": 4.9,
+      "reviews": 892,
+      "accessibility": "Partially wheelchair accessible",
+      "languages": ["English", "Sinhala", "Tamil"],
+      "guideServices": true,
+      "photography": "Allowed"
+    },
+    {
+      "id": "pilg-003",
+      "name": "Dambulla Cave Temple",
+      "location": "Dambulla",
+      "religion": "Buddhist",
+      "significance": "UNESCO World Heritage Site with 5 caves containing over 150 Buddha statues and ancient paintings",
+      "description": "The Golden Temple of Dambulla is a complex of 5 caves with over 150 Buddha statues and ancient paintings dating back to the 1st century BC.",
+      "history": "Established in the 1st century BC by King Valagamba, the caves have been continuously maintained and expanded over 2000 years.",
+      "rituals": [
+        "Cave circumambulation",
+        "Buddha statue offerings",
+        "Meditation in caves",
+        "Chanting ceremonies",
+        "Flower and incense offerings"
+      ],
+      "bestTimeToVisit": "Year-round, early morning or late afternoon",
+      "visitingHours": "7:00 AM - 7:00 PM",
+      "entranceFee": 25,
+      "currency": "USD",
+      "dressCode": "Modest clothing, remove shoes before entering caves",
+      "facilities": [
+        "Five cave temples",
+        "Museum",
+        "Gift shop",
+        "Restrooms",
+        "Parking",
+        "Guided tours"
+      ],
+      "nearbyAttractions": [
+        "Sigiriya Rock Fortress",
+        "Minneriya National Park",
+        "Polonnaruwa Ancient City",
+        "Kandalama Reservoir"
+      ],
+      "accommodation": [
+        "Heritage hotels",
+        "Buddhist guesthouses",
+        "Eco-lodges",
+        "Traditional homestays"
+      ],
+      "transportation": [
+        "Bus from Colombo",
+        "Private vehicle",
+        "Train to Habarana",
+        "Local tuk-tuk"
+      ],
+      "image": "/images/pilgrimage/dambulla-caves.jpg",
+      "rating": 4.7,
+      "reviews": 1156,
+      "accessibility": "Stairs required, not wheelchair accessible",
+      "languages": ["English", "Sinhala", "Tamil"],
+      "guideServices": true,
+      "photography": "Allowed (no flash in caves)"
+    },
+    {
+      "id": "pilg-004",
+      "name": "Adam's Peak (Sri Pada)",
+      "location": "Ratnapura District",
+      "religion": "Multi-religious",
+      "significance": "Sacred mountain revered by Buddhists, Hindus, Muslims, and Christians, believed to be the footprint of Buddha, Shiva, Adam, or St. Thomas",
+      "description": "Adam's Peak is a 2,243m mountain sacred to four religions. The sacred footprint at the summit is believed by Buddhists to be Buddha's, Hindus as Shiva's, Muslims as Adam's, and Christians as St. Thomas's.",
+      "history": "Pilgrimage site for over 1000 years, with the earliest recorded pilgrimage by King Vijayabahu I in the 11th century.",
+      "rituals": [
+        "Night ascent for sunrise",
+        "Circumambulation of summit",
+        "Offering prayers at footprint",
+        "Bell ringing tradition",
+        "Meditation at sunrise"
+      ],
+      "bestTimeToVisit": "December to April (pilgrimage season)",
+      "visitingHours": "24 hours (night ascent recommended)",
+      "entranceFee": "Free",
+      "currency": "LKR",
+      "dressCode": "Warm clothing, comfortable shoes",
+      "facilities": [
+        "Rest houses along trail",
+        "Tea shops",
+        "Basic accommodation",
+        "First aid stations",
+        "Parking",
+        "Guide services"
+      ],
+      "nearbyAttractions": [
+        "Samanala Nature Reserve",
+        "Kitulgala",
+        "Ratnapura Gem Mines",
+        "Sinharaja Forest Reserve"
+      ],
+      "accommodation": [
+        "Mountain rest houses",
+        "Pilgrimage lodges",
+        "Local guesthouses",
+        "Camping facilities"
+      ],
+      "transportation": [
+        "Bus to Hatton",
+        "Private vehicle to trailhead",
+        "Local tuk-tuk",
+        "Hiking from base"
+      ],
+      "image": "/images/pilgrimage/adams-peak.jpg",
+      "rating": 4.8,
+      "reviews": 743,
+      "accessibility": "Strenuous climb, not wheelchair accessible",
+      "languages": ["English", "Sinhala", "Tamil"],
+      "guideServices": true,
+      "photography": "Allowed"
+    },
+    {
+      "id": "pilg-005",
+      "name": "Kataragama Temple",
+      "location": "Kataragama",
+      "religion": "Hindu/Buddhist",
+      "significance": "Important pilgrimage site for both Hindus and Buddhists, dedicated to Lord Kataragama (Skanda/Murugan)",
+      "description": "Kataragama is a unique multi-religious pilgrimage site where Hindus and Buddhists worship together. The temple is dedicated to Lord Kataragama, the war god and son of Shiva.",
+      "history": "Ancient pilgrimage site mentioned in the Mahabharata, with continuous worship for over 2000 years.",
+      "rituals": [
+        "Daily pooja ceremonies",
+        "Fire walking ceremonies",
+        "Kavadi dances",
+        "Circumambulation",
+        "Offering prayers"
+      ],
+      "bestTimeToVisit": "July-August (Esala festival), year-round",
+      "visitingHours": "4:00 AM - 10:00 PM",
+      "entranceFee": "Free",
+      "currency": "LKR",
+      "dressCode": "Modest clothing, traditional attire preferred",
+      "facilities": [
+        "Main temple complex",
+        "Accommodation for pilgrims",
+        "Food stalls",
+        "Restrooms",
+        "Parking",
+        "Information center"
+      ],
+      "nearbyAttractions": [
+        "Bundala National Park",
+        "Yala National Park",
+        "Tissamaharama",
+        "Kirinda Beach"
+      ],
+      "accommodation": [
+        "Pilgrimage rest houses",
+        "Temple accommodation",
+        "Local guesthouses",
+        "Traditional lodges"
+      ],
+      "transportation": [
+        "Bus from Colombo",
+        "Private vehicle",
+        "Train to Hambantota",
+        "Local bus services"
+      ],
+      "image": "/images/pilgrimage/kataragama-temple.jpg",
+      "rating": 4.6,
+      "reviews": 567,
+      "accessibility": "Wheelchair accessible to main areas",
+      "languages": ["English", "Sinhala", "Tamil", "Hindi"],
+      "guideServices": true,
+      "photography": "Allowed in designated areas"
+    },
+    {
+      "id": "pilg-006",
+      "name": "Mihintale",
+      "location": "Anuradhapura",
+      "religion": "Buddhist",
+      "significance": "Birthplace of Buddhism in Sri Lanka, where Arahat Mahinda met King Devanampiya Tissa",
+      "description": "Mihintale is considered the cradle of Buddhism in Sri Lanka, where Arahat Mahinda, son of Emperor Ashoka, introduced Buddhism to King Devanampiya Tissa in 247 BC.",
+      "history": "The meeting between Arahat Mahinda and King Devanampiya Tissa on Poson Poya day in 247 BC marked the introduction of Buddhism to Sri Lanka.",
+      "rituals": [
+        "Poson Poya celebrations",
+        "Meditation at Ambasthale",
+        "Circumambulation of stupas",
+        "Offering prayers",
+        "Chanting ceremonies"
+      ],
+      "bestTimeToVisit": "June (Poson Poya), year-round",
+      "visitingHours": "6:00 AM - 6:00 PM",
+      "entranceFee": 15,
+      "currency": "USD",
+      "dressCode": "White clothing preferred, modest dress required",
+      "facilities": [
+        "Ambasthale (meeting place)",
+        "Kantaka Cetiya",
+        "Maha Seya",
+        "Restrooms",
+        "Parking",
+        "Information center"
+      ],
+      "nearbyAttractions": [
+        "Anuradhapura Ancient City",
+        "Sacred Bo Tree",
+        "Isurumuniya Temple",
+        "Twin Ponds"
+      ],
+      "accommodation": [
+        "Buddhist guesthouses",
+        "Heritage hotels",
+        "Meditation centers",
+        "Traditional lodges"
+      ],
+      "transportation": [
+        "Bus from Anuradhapura",
+        "Private vehicle",
+        "Local tuk-tuk",
+        "Walking from Anuradhapura"
+      ],
+      "image": "/images/pilgrimage/mihintale.jpg",
+      "rating": 4.7,
+      "reviews": 634,
+      "accessibility": "Stairs required, not wheelchair accessible",
+      "languages": ["English", "Sinhala", "Tamil"],
+      "guideServices": true,
+      "photography": "Allowed"
+    },
+    {
+      "id": "pilg-007",
+      "name": "Kelaniya Temple",
+      "location": "Kelaniya",
+      "religion": "Buddhist",
+      "significance": "Ancient temple where Lord Buddha is believed to have visited and preached, important for Duruthu Perahera",
+      "description": "Kelaniya Raja Maha Viharaya is an ancient temple where Lord Buddha is believed to have visited and preached during his third visit to Sri Lanka.",
+      "history": "Built by King Yatalatissa in the 3rd century BC, the temple has been renovated and expanded over the centuries.",
+      "rituals": [
+        "Daily pooja ceremonies",
+        "Duruthu Perahera (January)",
+        "Meditation sessions",
+        "Chanting ceremonies",
+        "Offering prayers"
+      ],
+      "bestTimeToVisit": "January (Duruthu Perahera), year-round",
+      "visitingHours": "6:00 AM - 8:00 PM",
+      "entranceFee": "Free",
+      "currency": "LKR",
+      "dressCode": "Modest clothing, white preferred",
+      "facilities": [
+        "Main temple hall",
+        "Buddha statues",
+        "Museum",
+        "Restrooms",
+        "Parking",
+        "Gift shop"
+      ],
+      "nearbyAttractions": [
+        "Colombo",
+        "Gangaramaya Temple",
+        "Independence Square",
+        "National Museum"
+      ],
+      "accommodation": [
+        "Colombo hotels",
+        "Buddhist guesthouses",
+        "Heritage hotels",
+        "Traditional lodges"
+      ],
+      "transportation": [
+        "Bus from Colombo",
+        "Train to Kelaniya",
+        "Private vehicle",
+        "Local tuk-tuk"
+      ],
+      "image": "/images/pilgrimage/kelaniya-temple.jpg",
+      "rating": 4.5,
+      "reviews": 423,
+      "accessibility": "Wheelchair accessible",
+      "languages": ["English", "Sinhala", "Tamil"],
+      "guideServices": true,
+      "photography": "Allowed"
+    },
+    {
+      "id": "pilg-008",
+      "name": "Gangaramaya Temple",
+      "location": "Colombo",
+      "religion": "Buddhist",
+      "significance": "Important Buddhist temple in Colombo with museum, library, and cultural center",
+      "description": "Gangaramaya Temple is a prominent Buddhist temple in Colombo, known for its museum, library, and cultural activities. It's an important center for Buddhist education and culture.",
+      "history": "Established in the late 19th century by Venerable Hikkaduwe Sri Sumangala Thero, the temple has grown into a major Buddhist center.",
+      "rituals": [
+        "Daily pooja ceremonies",
+        "Meditation classes",
+        "Dhamma discussions",
+        "Cultural programs",
+        "Educational activities"
+      ],
+      "bestTimeToVisit": "Year-round, especially during festivals",
+      "visitingHours": "6:00 AM - 8:00 PM",
+      "entranceFee": "Free",
+      "currency": "LKR",
+      "dressCode": "Modest clothing, white preferred",
+      "facilities": [
+        "Main temple hall",
+        "Museum",
+        "Library",
+        "Cultural center",
+        "Restrooms",
+        "Parking"
+      ],
+      "nearbyAttractions": [
+        "Beira Lake",
+        "Colombo Fort",
+        "Independence Square",
+        "National Museum"
+      ],
+      "accommodation": [
+        "Colombo hotels",
+        "Buddhist guesthouses",
+        "Heritage hotels",
+        "Traditional lodges"
+      ],
+      "transportation": [
+        "Bus services",
+        "Private vehicle",
+        "Local tuk-tuk",
+        "Walking from city center"
+      ],
+      "image": "/images/pilgrimage/gangaramaya-temple.jpg",
+      "rating": 4.4,
+      "reviews": 356,
+      "accessibility": "Wheelchair accessible",
+      "languages": ["English", "Sinhala", "Tamil"],
+      "guideServices": true,
+      "photography": "Allowed"
+    }
+  ]
+}

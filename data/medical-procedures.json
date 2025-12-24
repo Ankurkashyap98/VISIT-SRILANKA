@@ -1,0 +1,375 @@
+{
+  "medicalProcedures": [
+    {
+      "id": "proc-001",
+      "name": "Knee Replacement Surgery",
+      "category": "Orthopedic",
+      "icon": "Bone",
+      "description": "Complete knee replacement surgery with advanced prosthetic implants",
+      "duration": "2-3 hours",
+      "recoveryTime": "6-12 weeks",
+      "successRate": 95,
+      "averageCost": 8500,
+      "currency": "USD",
+      "requirements": [
+        "Pre-surgical assessment",
+        "Blood tests",
+        "X-rays and MRI",
+        "Physical therapy consultation",
+        "Post-surgery monitoring"
+      ],
+      "benefits": [
+        "Pain relief",
+        "Improved mobility",
+        "Enhanced quality of life",
+        "Long-term durability (15-20 years)",
+        "Minimal scarring"
+      ],
+      "risks": [
+        "Infection (1-2%)",
+        "Blood clots",
+        "Nerve damage",
+        "Implant loosening",
+        "Stiffness"
+      ],
+      "preparation": [
+        "Stop smoking 4 weeks before",
+        "Discontinue blood thinners",
+        "Physical therapy pre-surgery",
+        "Weight management",
+        "Home preparation for recovery"
+      ],
+      "aftercare": [
+        "Pain management",
+        "Physical therapy",
+        "Wound care",
+        "Activity restrictions",
+        "Follow-up appointments"
+      ],
+      "availableHospitals": [
+        "Colombo National Hospital",
+        "Asiri Central Hospital",
+        "Nawaloka Hospital",
+        "Lanka Hospitals"
+      ]
+    },
+    {
+      "id": "proc-002",
+      "name": "Hip Replacement Surgery",
+      "category": "Orthopedic",
+      "icon": "Bone",
+      "description": "Total hip replacement with modern ceramic or metal implants",
+      "duration": "2-4 hours",
+      "recoveryTime": "8-12 weeks",
+      "successRate": 96,
+      "averageCost": 9000,
+      "currency": "USD",
+      "requirements": [
+        "Comprehensive medical evaluation",
+        "Hip X-rays and CT scan",
+        "Cardiac assessment",
+        "Anesthesia consultation",
+        "Blood workup"
+      ],
+      "benefits": [
+        "Elimination of hip pain",
+        "Restored joint function",
+        "Improved walking ability",
+        "Long-lasting results",
+        "High patient satisfaction"
+      ],
+      "risks": [
+        "Infection (0.5-1%)",
+        "Dislocation (1-3%)",
+        "Blood clots",
+        "Leg length discrepancy",
+        "Implant failure"
+      ],
+      "preparation": [
+        "Medical clearance",
+        "Physical therapy evaluation",
+        "Home safety assessment",
+        "Medication review",
+        "Lifestyle modifications"
+      ],
+      "aftercare": [
+        "Immediate post-op care",
+        "Physical therapy program",
+        "Pain management",
+        "Activity progression",
+        "Long-term monitoring"
+      ],
+      "availableHospitals": [
+        "Colombo National Hospital",
+        "Asiri Central Hospital",
+        "Nawaloka Hospital",
+        "Lanka Hospitals"
+      ]
+    },
+    {
+      "id": "proc-003",
+      "name": "Cardiac Bypass Surgery",
+      "category": "Cardiology",
+      "icon": "Heart",
+      "description": "Coronary artery bypass grafting (CABG) for blocked arteries",
+      "duration": "3-6 hours",
+      "recoveryTime": "4-6 weeks",
+      "successRate": 92,
+      "averageCost": 15000,
+      "currency": "USD",
+      "requirements": [
+        "Cardiac assessment",
+        "Angiography",
+        "Pre-surgery evaluation",
+        "Post-surgery monitoring",
+        "Cardiac rehabilitation"
+      ],
+      "benefits": [
+        "Improved blood flow to heart",
+        "Reduced chest pain",
+        "Lower risk of heart attack",
+        "Better quality of life",
+        "Increased life expectancy"
+      ],
+      "risks": [
+        "Bleeding complications",
+        "Infection",
+        "Stroke risk",
+        "Kidney problems",
+        "Heart rhythm issues"
+      ],
+      "preparation": [
+        "Cardiac catheterization",
+        "Medication adjustments",
+        "Lifestyle modifications",
+        "Blood pressure control",
+        "Diabetes management"
+      ],
+      "aftercare": [
+        "Intensive care monitoring",
+        "Cardiac rehabilitation",
+        "Medication management",
+        "Lifestyle counseling",
+        "Regular follow-ups"
+      ],
+      "availableHospitals": [
+        "Colombo National Hospital",
+        "Asiri Central Hospital",
+        "Nawaloka Hospital",
+        "Lanka Hospitals"
+      ]
+    },
+    {
+      "id": "proc-004",
+      "name": "Dental Implants",
+      "category": "Dentistry",
+      "icon": "Smile",
+      "description": "Complete dental implant procedures with titanium posts",
+      "duration": "1-2 hours per implant",
+      "recoveryTime": "1-2 weeks",
+      "successRate": 98,
+      "averageCost": 2000,
+      "currency": "USD",
+      "requirements": [
+        "Dental examination",
+        "X-rays and 3D imaging",
+        "Bone density assessment",
+        "Gum health evaluation",
+        "Treatment planning"
+      ],
+      "benefits": [
+        "Natural-looking teeth",
+        "Improved chewing ability",
+        "Preserves jawbone",
+        "Long-lasting solution",
+        "No need for removable dentures"
+      ],
+      "risks": [
+        "Infection (rare)",
+        "Nerve damage",
+        "Sinus problems",
+        "Implant failure",
+        "Gum recession"
+      ],
+      "preparation": [
+        "Oral hygiene improvement",
+        "Smoking cessation",
+        "Bone grafting if needed",
+        "Treatment timeline planning",
+        "Cost estimation"
+      ],
+      "aftercare": [
+        "Oral hygiene maintenance",
+        "Regular dental checkups",
+        "Avoid hard foods initially",
+        "Medication as prescribed",
+        "Follow-up appointments"
+      ],
+      "availableHospitals": [
+        "Colombo Dental Hospital",
+        "Asiri Dental Center",
+        "Nawaloka Dental Clinic",
+        "Lanka Dental Institute"
+      ]
+    },
+    {
+      "id": "proc-005",
+      "name": "LASIK Eye Surgery",
+      "category": "Ophthalmology",
+      "icon": "Eye",
+      "description": "Laser vision correction for nearsightedness, farsightedness, and astigmatism",
+      "duration": "15-30 minutes",
+      "recoveryTime": "1-2 weeks",
+      "successRate": 99,
+      "averageCost": 1500,
+      "currency": "USD",
+      "requirements": [
+        "Comprehensive eye exam",
+        "Corneal thickness measurement",
+        "Pupil size evaluation",
+        "Dry eye assessment",
+        "Refractive stability check"
+      ],
+      "benefits": [
+        "Reduced dependence on glasses",
+        "Quick recovery time",
+        "High success rate",
+        "Minimal pain",
+        "Immediate results"
+      ],
+      "risks": [
+        "Dry eyes (temporary)",
+        "Glare and halos",
+        "Undercorrection/overcorrection",
+        "Infection (rare)",
+        "Vision regression"
+      ],
+      "preparation": [
+        "Stop wearing contact lenses",
+        "Eye health optimization",
+        "Medication review",
+        "Pre-surgery instructions",
+        "Arrangement for transportation"
+      ],
+      "aftercare": [
+        "Eye drops as prescribed",
+        "Avoid rubbing eyes",
+        "Protective eyewear",
+        "Regular follow-ups",
+        "Gradual return to activities"
+      ],
+      "availableHospitals": [
+        "Colombo Eye Hospital",
+        "Asiri Eye Center",
+        "Nawaloka Eye Clinic",
+        "Lanka Vision Institute"
+      ]
+    },
+    {
+      "id": "proc-006",
+      "name": "Plastic Surgery - Rhinoplasty",
+      "category": "Plastic Surgery",
+      "icon": "Activity",
+      "description": "Nose reshaping surgery for cosmetic or functional purposes",
+      "duration": "2-4 hours",
+      "recoveryTime": "2-3 weeks",
+      "successRate": 94,
+      "averageCost": 4000,
+      "currency": "USD",
+      "requirements": [
+        "Consultation and evaluation",
+        "Medical history review",
+        "Photography and planning",
+        "Blood tests",
+        "Pre-surgery counseling"
+      ],
+      "benefits": [
+        "Improved nasal appearance",
+        "Better breathing function",
+        "Enhanced facial harmony",
+        "Boosted self-confidence",
+        "Long-lasting results"
+      ],
+      "risks": [
+        "Swelling and bruising",
+        "Infection (rare)",
+        "Bleeding",
+        "Scarring",
+        "Unsatisfactory results"
+      ],
+      "preparation": [
+        "Stop smoking and drinking",
+        "Medication adjustments",
+        "Arrange time off work",
+        "Prepare recovery space",
+        "Follow pre-surgery instructions"
+      ],
+      "aftercare": [
+        "Rest and elevation",
+        "Cold compresses",
+        "Medication as prescribed",
+        "Avoid strenuous activities",
+        "Regular follow-up visits"
+      ],
+      "availableHospitals": [
+        "Colombo Plastic Surgery Center",
+        "Asiri Aesthetics",
+        "Nawaloka Cosmetic Clinic",
+        "Lanka Beauty Institute"
+      ]
+    },
+    {
+      "id": "proc-007",
+      "name": "Brain Tumor Surgery",
+      "category": "Neurology",
+      "icon": "Brain",
+      "description": "Surgical removal of brain tumors with advanced techniques",
+      "duration": "4-8 hours",
+      "recoveryTime": "4-8 weeks",
+      "successRate": 85,
+      "averageCost": 25000,
+      "currency": "USD",
+      "requirements": [
+        "Comprehensive neurological evaluation",
+        "MRI and CT scans",
+        "Biopsy if needed",
+        "Pre-surgical planning",
+        "Multidisciplinary team consultation"
+      ],
+      "benefits": [
+        "Tumor removal or reduction",
+        "Symptom relief",
+        "Improved quality of life",
+        "Extended survival",
+        "Better treatment options"
+      ],
+      "risks": [
+        "Neurological deficits",
+        "Infection",
+        "Bleeding",
+        "Seizures",
+        "Cognitive changes"
+      ],
+      "preparation": [
+        "Detailed imaging studies",
+        "Neurological assessment",
+        "Pre-surgery counseling",
+        "Family preparation",
+        "Medical optimization"
+      ],
+      "aftercare": [
+        "Intensive care monitoring",
+        "Neurological assessments",
+        "Physical therapy",
+        "Medication management",
+        "Long-term follow-up"
+      ],
+      "availableHospitals": [
+        "Colombo National Hospital",
+        "Asiri Central Hospital",
+        "Nawaloka Hospital",
+        "Lanka Hospitals"
+      ]
+    }
+  ]
+}

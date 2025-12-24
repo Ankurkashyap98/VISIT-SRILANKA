@@ -1,0 +1,414 @@
+{
+  "packages": [
+    {
+      "id": "pkg-001",
+      "name": "Cultural Heritage Explorer",
+      "description": "Discover Sri Lanka's rich cultural heritage through ancient temples, historical sites, and traditional villages",
+      "duration": "7 days",
+      "price": 850,
+      "currency": "USD",
+      "rating": 4.8,
+      "reviews": 156,
+      "image": "/images/packages/cultural-heritage.jpg",
+      "category": "Cultural",
+      "difficulty": "Easy",
+      "includes": [
+        "Accommodation (6 nights)",
+        "All meals",
+        "Professional guide",
+        "Entrance fees",
+        "Transportation",
+        "Cultural performances"
+      ],
+      "highlights": [
+        "Visit ancient temples in Anuradhapura",
+        "Explore Sigiriya Rock Fortress",
+        "Traditional village stay",
+        "Cultural dance performances",
+        "Local cooking classes"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrival in Colombo",
+          "description": "Welcome to Sri Lanka! Transfer to hotel and city tour"
+        },
+        {
+          "day": 2,
+          "title": "Anuradhapura Ancient City",
+          "description": "Explore UNESCO World Heritage ancient city"
+        },
+        {
+          "day": 3,
+          "title": "Sigiriya Rock Fortress",
+          "description": "Climb the famous rock fortress with ancient frescoes"
+        },
+        {
+          "day": 4,
+          "title": "Kandy Cultural Triangle",
+          "description": "Visit Temple of the Tooth and cultural shows"
+        },
+        {
+          "day": 5,
+          "title": "Traditional Village Experience",
+          "description": "Stay with local families and learn traditions"
+        },
+        {
+          "day": 6,
+          "title": "Colombo Heritage Walk",
+          "description": "Explore colonial architecture and markets"
+        },
+        {
+          "day": 7,
+          "title": "Departure",
+          "description": "Transfer to airport with memories to cherish"
+        }
+      ],
+      "available": true,
+      "maxGroupSize": 12,
+      "minAge": 8,
+      "season": "Year-round",
+      "locations": ["Anuradhapura", "Sigiriya", "Kandy", "Colombo"]
+    },
+    {
+      "id": "pkg-002",
+      "name": "Wildlife Safari Adventure",
+      "description": "Experience Sri Lanka's incredible wildlife with guided safaris in national parks",
+      "duration": "5 days",
+      "price": 650,
+      "currency": "USD",
+      "rating": 4.9,
+      "reviews": 89,
+      "image": "/images/packages/wildlife-safari.jpg",
+      "category": "Adventure",
+      "difficulty": "Moderate",
+      "includes": [
+        "Accommodation (4 nights)",
+        "All meals",
+        "Professional safari guide",
+        "Park entrance fees",
+        "4WD safari vehicles",
+        "Binoculars provided"
+      ],
+      "highlights": [
+        "Yala National Park safari",
+        "Wilpattu National Park",
+        "Udawalawe Elephant Orphanage",
+        "Bird watching in Bundala",
+        "Leopard spotting tours"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrival & Yala Safari",
+          "description": "Transfer to Yala and afternoon safari"
+        },
+        {
+          "day": 2,
+          "title": "Full Day Yala Safari",
+          "description": "Morning and evening safaris for wildlife spotting"
+        },
+        {
+          "day": 3,
+          "title": "Udawalawe Elephant Orphanage",
+          "description": "Visit elephant orphanage and afternoon safari"
+        },
+        {
+          "day": 4,
+          "title": "Wilpattu National Park",
+          "description": "Explore the largest national park"
+        },
+        {
+          "day": 5,
+          "title": "Departure",
+          "description": "Morning safari and transfer to airport"
+        }
+      ],
+      "available": true,
+      "maxGroupSize": 8,
+      "minAge": 12,
+      "season": "October to April",
+      "locations": ["Yala", "Wilpattu", "Udawalawe", "Bundala"]
+    },
+    {
+      "id": "pkg-003",
+      "name": "Beach Paradise Retreat",
+      "description": "Relax on pristine beaches and enjoy water sports in tropical paradise",
+      "duration": "6 days",
+      "price": 750,
+      "currency": "USD",
+      "rating": 4.7,
+      "reviews": 203,
+      "image": "/images/packages/beach-retreat.jpg",
+      "category": "Relaxation",
+      "difficulty": "Easy",
+      "includes": [
+        "Beachfront accommodation (5 nights)",
+        "All meals",
+        "Water sports equipment",
+        "Snorkeling gear",
+        "Sunset boat trips",
+        "Spa treatments"
+      ],
+      "highlights": [
+        "Bentota beach resort",
+        "Whale watching in Mirissa",
+        "Snorkeling in Hikkaduwa",
+        "Sunset dolphin cruises",
+        "Ayurvedic spa treatments"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrival in Bentota",
+          "description": "Welcome to beach paradise and resort check-in"
+        },
+        {
+          "day": 2,
+          "title": "Water Sports & Beach",
+          "description": "Snorkeling, kayaking, and beach relaxation"
+        },
+        {
+          "day": 3,
+          "title": "Whale Watching",
+          "description": "Early morning whale watching in Mirissa"
+        },
+        {
+          "day": 4,
+          "title": "Hikkaduwa Marine Park",
+          "description": "Snorkeling with turtles and coral reefs"
+        },
+        {
+          "day": 5,
+          "title": "Spa & Relaxation",
+          "description": "Ayurvedic treatments and beach time"
+        },
+        {
+          "day": 6,
+          "title": "Departure",
+          "description": "Transfer to airport with sun-kissed memories"
+        }
+      ],
+      "available": true,
+      "maxGroupSize": 15,
+      "minAge": 5,
+      "season": "Year-round",
+      "locations": ["Bentota", "Mirissa", "Hikkaduwa", "Unawatuna"]
+    },
+    {
+      "id": "pkg-004",
+      "name": "Mountain Trekking Expedition",
+      "description": "Challenge yourself with scenic mountain treks and breathtaking views",
+      "duration": "8 days",
+      "price": 950,
+      "currency": "USD",
+      "rating": 4.6,
+      "reviews": 67,
+      "image": "/images/packages/mountain-trek.jpg",
+      "category": "Adventure",
+      "difficulty": "Hard",
+      "includes": [
+        "Mountain accommodation (7 nights)",
+        "All meals",
+        "Professional trekking guide",
+        "Trekking equipment",
+        "Safety gear",
+        "Transportation"
+      ],
+      "highlights": [
+        "Adam's Peak sunrise trek",
+        "Horton Plains World's End",
+        "Knuckles Mountain Range",
+        "Ella Rock hiking",
+        "Tea plantation walks"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrival in Kandy",
+          "description": "Transfer to Kandy and preparation for trek"
+        },
+        {
+          "day": 2,
+          "title": "Ella Rock Trek",
+          "description": "Moderate trek to Ella Rock viewpoint"
+        },
+        {
+          "day": 3,
+          "title": "Horton Plains",
+          "description": "Trek to World's End viewpoint"
+        },
+        {
+          "day": 4,
+          "title": "Knuckles Range",
+          "description": "Multi-day trek in Knuckles Mountain Range"
+        },
+        {
+          "day": 5,
+          "title": "Knuckles Range (Day 2)",
+          "description": "Continue trekking through mountain trails"
+        },
+        {
+          "day": 6,
+          "title": "Adam's Peak Preparation",
+          "description": "Rest day and preparation for night trek"
+        },
+        {
+          "day": 7,
+          "title": "Adam's Peak Sunrise",
+          "description": "Night trek to catch sunrise from summit"
+        },
+        {
+          "day": 8,
+          "title": "Departure",
+          "description": "Transfer to airport with achievement memories"
+        }
+      ],
+      "available": true,
+      "maxGroupSize": 10,
+      "minAge": 16,
+      "season": "December to March",
+      "locations": ["Ella", "Horton Plains", "Knuckles", "Adam's Peak"]
+    },
+    {
+      "id": "pkg-005",
+      "name": "Spiritual Pilgrimage Journey",
+      "description": "Connect with your spiritual side through sacred temples and meditation retreats",
+      "duration": "10 days",
+      "price": 1200,
+      "currency": "USD",
+      "rating": 4.9,
+      "reviews": 124,
+      "image": "/images/packages/spiritual-pilgrimage.jpg",
+      "category": "Religious",
+      "difficulty": "Easy",
+      "includes": [
+        "Temple accommodation (9 nights)",
+        "Vegetarian meals",
+        "Spiritual guide",
+        "Meditation sessions",
+        "Temple entrance fees",
+        "Blessing ceremonies"
+      ],
+      "highlights": [
+        "Temple of the Tooth (Kandy)",
+        "Dambulla Cave Temple",
+        "Anuradhapura Sacred Bo Tree",
+        "Meditation retreat in forest monastery",
+        "Ayurvedic wellness treatments"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrival & Orientation",
+          "description": "Welcome ceremony and spiritual orientation"
+        },
+        {
+          "day": 2,
+          "title": "Temple of the Tooth",
+          "description": "Visit sacred relic temple and meditation"
+        },
+        {
+          "day": 3,
+          "title": "Dambulla Cave Temple",
+          "description": "Explore ancient cave temples and paintings"
+        },
+        {
+          "day": 4,
+          "title": "Anuradhapura Sacred Sites",
+          "description": "Visit Sacred Bo Tree and ancient stupas"
+        },
+        {
+          "day": 5,
+          "title": "Forest Monastery Retreat",
+          "description": "Begin meditation retreat in forest setting"
+        },
+        {
+          "day": 6,
+          "title": "Meditation Practice",
+          "description": "Deep meditation and mindfulness practice"
+        },
+        {
+          "day": 7,
+          "title": "Spiritual Teachings",
+          "description": "Learn Buddhist philosophy and practices"
+        },
+        {
+          "day": 8,
+          "title": "Ayurvedic Wellness",
+          "description": "Traditional healing and wellness treatments"
+        },
+        {
+          "day": 9,
+          "title": "Blessing Ceremony",
+          "description": "Sacred blessing ceremony and final meditation"
+        },
+        {
+          "day": 10,
+          "title": "Departure",
+          "description": "Transfer with spiritual peace and wisdom"
+        }
+      ],
+      "available": true,
+      "maxGroupSize": 8,
+      "minAge": 18,
+      "season": "Year-round",
+      "locations": ["Kandy", "Dambulla", "Anuradhapura", "Forest Monasteries"]
+    },
+    {
+      "id": "pkg-006",
+      "name": "Tea Country Explorer",
+      "description": "Discover the world-famous Ceylon tea through plantation visits and tastings",
+      "duration": "4 days",
+      "price": 450,
+      "currency": "USD",
+      "rating": 4.5,
+      "reviews": 178,
+      "image": "/images/packages/tea-country.jpg",
+      "category": "Cultural",
+      "difficulty": "Easy",
+      "includes": [
+        "Plantation accommodation (3 nights)",
+        "All meals",
+        "Tea tasting sessions",
+        "Plantation tours",
+        "Transportation",
+        "Tea factory visits"
+      ],
+      "highlights": [
+        "Nuwara Eliya tea plantations",
+        "Tea factory tours",
+        "Tea tasting masterclass",
+        "Scenic train journey",
+        "Cool mountain climate"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrival in Nuwara Eliya",
+          "description": "Transfer to tea country and plantation check-in"
+        },
+        {
+          "day": 2,
+          "title": "Tea Plantation Tour",
+          "description": "Learn about tea cultivation and processing"
+        },
+        {
+          "day": 3,
+          "title": "Tea Factory & Tasting",
+          "description": "Factory tour and professional tea tasting"
+        },
+        {
+          "day": 4,
+          "title": "Departure",
+          "description": "Scenic train journey and transfer to airport"
+        }
+      ],
+      "available": true,
+      "maxGroupSize": 12,
+      "minAge": 10,
+      "season": "Year-round",
+      "locations": ["Nuwara Eliya", "Ella", "Kandy"]
+    }
+  ]
+}

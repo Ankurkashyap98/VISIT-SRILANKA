@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "id": "fl_001",
+      "airline": "SriLankan Airlines",
+      "route": "Mumbai → Colombo",
+      "departure": "08:30",
+      "arrival": "10:45",
+      "duration": "2h 15m",
+      "price": 180,
+      "currency": "USD",
+      "class": "Economy",
+      "rating": 4.2,
+      "availability": true,
+      "features": ["Meal included", "Entertainment system", "WiFi available"],
+      "aircraft": "A320",
+      "baggage": "20kg included"
+    },
+    {
+      "id": "fl_002",
+      "airline": "Air India",
+      "route": "Delhi → Colombo", 
+      "departure": "14:20",
+      "arrival": "17:35",
+      "duration": "3h 15m",
+      "price": 220,
+      "currency": "USD",
+      "class": "Economy",
+      "rating": 4.0,
+      "availability": true,
+      "features": ["Meal included", "Entertainment system"],
+      "aircraft": "A321",
+      "baggage": "25kg included"
+    },
+    {
+      "id": "fl_003",
+      "airline": "Emirates",
+      "route": "Dubai → Colombo",
+      "departure": "02:15",
+      "arrival": "07:30",
+      "duration": "5h 15m",
+      "price": 350,
+      "currency": "USD",
+      "class": "Business",
+      "rating": 4.7,
+      "availability": true,
+      "features": ["Lounge access", "Priority boarding", "Luxury meals"],
+      "aircraft": "B777",
+      "baggage": "40kg included"
+    }
+  ]
+}

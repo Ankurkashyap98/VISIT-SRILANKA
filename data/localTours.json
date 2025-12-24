@@ -1,0 +1,58 @@
+{
+  "tours": [
+    {
+      "id": "lt_001",
+      "name": "Sigiriya Rock Fortress Tour",
+      "type": "cultural",
+      "description": "Full day tour of the ancient rock fortress",
+      "price": 80,
+      "currency": "USD",
+      "rating": 4.7,
+      "location": "Sigiriya",
+      "contact": "+94 66 234 5678",
+      "availability": true,
+      "governmentApproved": true,
+      "features": ["Professional guide", "Entrance fees included", "Lunch included"],
+      "duration": "8 hours",
+      "maxParticipants": 15,
+      "includes": ["Transport", "Guide", "Entrance fees", "Lunch"],
+      "highlights": ["Ancient frescoes", "Panoramic views", "Historical significance"]
+    },
+    {
+      "id": "lt_002",
+      "name": "Kandy Cultural Experience",
+      "type": "cultural",
+      "description": "Temple of the Tooth and cultural show",
+      "price": 45,
+      "currency": "USD",
+      "rating": 4.5,
+      "location": "Kandy",
+      "contact": "+94 81 345 6789",
+      "availability": true,
+      "governmentApproved": true,
+      "features": ["Temple visit", "Cultural dance show", "Local market tour"],
+      "duration": "6 hours",
+      "maxParticipants": 20,
+      "includes": ["Transport", "Guide", "Temple entrance", "Cultural show"],
+      "highlights": ["Sacred Tooth Relic", "Traditional dance", "Local crafts"]
+    },
+    {
+      "id": "lt_003",
+      "name": "Ella Adventure Trek",
+      "type": "adventure",
+      "description": "Hiking to Ella Rock and Nine Arch Bridge",
+      "price": 35,
+      "currency": "USD",
+      "rating": 4.6,
+      "location": "Ella",
+      "contact": "+94 57 456 7890",
+      "availability": true,
+      "governmentApproved": true,
+      "features": ["Experienced guide", "Safety equipment", "Refreshments"],
+      "duration": "5 hours",
+      "maxParticipants": 12,
+      "includes": ["Guide", "Safety equipment", "Water", "Snacks"],
+      "highlights": ["Mountain views", "Railway bridge", "Nature photography"]
+    }
+  ]
+}

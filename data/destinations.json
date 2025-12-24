@@ -1,0 +1,324 @@
+{
+  "popularDestinations": [
+    {
+      "id": "1",
+      "name": "Sigiriya Rock Fortress",
+      "location": "Central Province",
+      "category": "Historical",
+      "image": "/images/sigiriya.jpg",
+      "rating": 4.8,
+      "description": "Ancient rock fortress and palace ruins with stunning frescoes",
+      "highlights": [
+        "Ancient frescoes",
+        "UNESCO World Heritage",
+        "Panoramic views",
+        "Historical significance"
+      ],
+      "price": 30
+    },
+    {
+      "id": "2", 
+      "name": "Temple of the Sacred Tooth Relic",
+      "location": "Kandy",
+      "category": "Religious",
+      "image": "/images/temple-tooth.jpg",
+      "rating": 4.9,
+      "description": "Sacred Buddhist temple housing the tooth relic of Lord Buddha",
+      "highlights": [
+        "Sacred tooth relic",
+        "UNESCO World Heritage",
+        "Cultural significance",
+        "Esala Perahera festival"
+      ],
+      "price": 15
+    },
+    {
+      "id": "3",
+      "name": "Yala National Park",
+      "location": "Southern Province", 
+      "category": "Adventure",
+      "image": "/images/yala-park.jpg",
+      "rating": 4.7,
+      "description": "Premier wildlife sanctuary famous for leopards and elephants",
+      "highlights": [
+        "Leopard spotting",
+        "Elephant herds",
+        "Bird watching",
+        "Safari experience"
+      ],
+      "price": 25
+    },
+    {
+      "id": "4",
+      "name": "Galle Fort",
+      "location": "Galle",
+      "category": "Historical",
+      "image": "/images/galle-fort.jpg",
+      "rating": 4.6,
+      "description": "UNESCO World Heritage colonial fort with Dutch architecture",
+      "highlights": [
+        "Dutch colonial architecture",
+        "UNESCO World Heritage",
+        "Historic lighthouse",
+        "Coastal views"
+      ],
+      "price": 0
+    },
+    {
+      "id": "5",
+      "name": "Ella Rock",
+      "location": "Ella",
+      "category": "Adventure",
+      "image": "/images/ella-rock.jpg",
+      "rating": 4.5,
+      "description": "Scenic hiking destination with panoramic mountain views"
+    },
+    {
+      "id": "6",
+      "name": "Anuradhapura",
+      "location": "North Central Province",
+      "category": "Historical",
+      "image": "/images/anuradhapura.jpg",
+      "rating": 4.7,
+      "description": "Ancient capital with well-preserved ruins and sacred sites"
+    },
+    {
+      "id": "7",
+      "name": "Polonnaruwa",
+      "location": "North Central Province",
+      "category": "Historical", 
+      "image": "/images/polonnaruwa.jpg",
+      "rating": 4.6,
+      "description": "Medieval capital with impressive archaeological remains"
+    },
+    {
+      "id": "8",
+      "name": "Nuwara Eliya",
+      "location": "Central Province",
+      "category": "Leisure",
+      "image": "/images/nuwara-eliya.jpg",
+      "rating": 4.4,
+      "description": "Hill station known as 'Little England' with tea plantations"
+    },
+    {
+      "id": "9",
+      "name": "Mirissa Beach",
+      "location": "Southern Province",
+      "category": "Leisure",
+      "image": "/images/mirissa-beach.jpg",
+      "rating": 4.5,
+      "description": "Popular beach destination for whale watching and surfing"
+    },
+    {
+      "id": "10",
+      "name": "Adam's Peak",
+      "location": "Sabaragamuwa Province",
+      "category": "Religious",
+      "image": "/images/adams-peak.jpg",
+      "rating": 4.6,
+      "description": "Sacred mountain pilgrimage site with sunrise views"
+    }
+  ],
+  "allDestinations": [
+    {
+      "id": "1",
+      "name": "Sigiriya Rock Fortress",
+      "location": "Central Province",
+      "category": "Historical",
+      "image": "/images/sigiriya.jpg",
+      "rating": 4.8,
+      "description": "Ancient rock fortress and palace ruins with stunning frescoes",
+      "keywords": ["sigiriya", "rock", "fortress", "ancient", "frescoes", "lion", "palace", "ruins"]
+    },
+    {
+      "id": "2",
+      "name": "Temple of the Sacred Tooth Relic",
+      "location": "Kandy",
+      "category": "Religious",
+      "image": "/images/temple-tooth.jpg",
+      "rating": 4.9,
+      "description": "Sacred Buddhist temple housing the tooth relic of Lord Buddha",
+      "keywords": ["temple", "tooth", "relic", "buddha", "kandy", "sacred", "buddhist", "dalada"]
+    },
+    {
+      "id": "3",
+      "name": "Yala National Park",
+      "location": "Southern Province",
+      "category": "Adventure",
+      "image": "/images/yala-park.jpg",
+      "rating": 4.7,
+      "description": "Premier wildlife sanctuary famous for leopards and elephants",
+      "keywords": ["yala", "national", "park", "wildlife", "leopard", "elephant", "safari", "animals"]
+    },
+    {
+      "id": "4",
+      "name": "Galle Fort",
+      "location": "Galle",
+      "category": "Historical",
+      "image": "/images/galle-fort.jpg",
+      "rating": 4.6,
+      "description": "UNESCO World Heritage colonial fort with Dutch architecture",
+      "keywords": ["galle", "fort", "dutch", "colonial", "unesco", "heritage", "architecture", "lighthouse"]
+    },
+    {
+      "id": "5",
+      "name": "Ella Rock",
+      "location": "Ella",
+      "category": "Adventure",
+      "image": "/images/ella-rock.jpg",
+      "rating": 4.5,
+      "description": "Scenic hiking destination with panoramic mountain views",
+      "keywords": ["ella", "rock", "hiking", "mountain", "views", "scenic", "train", "nine", "arch"]
+    },
+    {
+      "id": "6",
+      "name": "Anuradhapura",
+      "location": "North Central Province",
+      "category": "Historical",
+      "image": "/images/anuradhapura.jpg",
+      "rating": 4.7,
+      "description": "Ancient capital with well-preserved ruins and sacred sites",
+      "keywords": ["anuradhapura", "ancient", "capital", "ruins", "sacred", "buddhist", "dagoba", "stupa"]
+    },
+    {
+      "id": "7",
+      "name": "Polonnaruwa",
+      "location": "North Central Province",
+      "category": "Historical",
+      "image": "/images/polonnaruwa.jpg",
+      "rating": 4.6,
+      "description": "Medieval capital with impressive archaeological remains",
+      "keywords": ["polonnaruwa", "medieval", "capital", "archaeological", "gal", "vihara", "statue", "king"]
+    },
+    {
+      "id": "8",
+      "name": "Nuwara Eliya",
+      "location": "Central Province",
+      "category": "Leisure",
+      "image": "/images/nuwara-eliya.jpg",
+      "rating": 4.4,
+      "description": "Hill station known as 'Little England' with tea plantations",
+      "keywords": ["nuwara", "eliya", "hill", "station", "tea", "plantation", "england", "cool", "climate"]
+    },
+    {
+      "id": "9",
+      "name": "Mirissa Beach",
+      "location": "Southern Province",
+      "category": "Leisure",
+      "image": "/images/mirissa-beach.jpg",
+      "rating": 4.5,
+      "description": "Popular beach destination for whale watching and surfing",
+      "keywords": ["mirissa", "beach", "whale", "watching", "surfing", "ocean", "sunset", "coconut"]
+    },
+    {
+      "id": "10",
+      "name": "Adam's Peak",
+      "location": "Sabaragamuwa Province",
+      "category": "Religious",
+      "image": "/images/adams-peak.jpg",
+      "rating": 4.6,
+      "description": "Sacred mountain pilgrimage site with sunrise views",
+      "keywords": ["adam", "peak", "sacred", "mountain", "pilgrimage", "sunrise", "footprint", "sri", "pada"]
+    },
+    {
+      "id": "11",
+      "name": "Bentota Beach",
+      "location": "Southern Province",
+      "category": "Leisure",
+      "image": "/images/bentota-beach.jpg",
+      "rating": 4.3,
+      "description": "Beautiful beach resort town with water sports and relaxation",
+      "keywords": ["bentota", "beach", "resort", "water", "sports", "relaxation", "hotel", "spa"]
+    },
+    {
+      "id": "12",
+      "name": "Dambulla Cave Temple",
+      "location": "Central Province",
+      "category": "Religious",
+      "image": "/images/dambulla-cave.jpg",
+      "rating": 4.5,
+      "description": "Ancient cave temple complex with Buddhist murals and statues",
+      "keywords": ["dambulla", "cave", "temple", "buddhist", "murals", "statues", "ancient", "golden"]
+    },
+    {
+      "id": "13",
+      "name": "Horton Plains",
+      "location": "Central Province",
+      "category": "Adventure",
+      "image": "/images/horton-plains.jpg",
+      "rating": 4.4,
+      "description": "Highland national park with World's End viewpoint",
+      "keywords": ["horton", "plains", "worlds", "end", "highland", "national", "park", "hiking", "viewpoint"]
+    },
+    {
+      "id": "14",
+      "name": "Trincomalee",
+      "location": "Eastern Province",
+      "category": "Leisure",
+      "image": "/images/trincomalee.jpg",
+      "rating": 4.2,
+      "description": "Historic port city with beautiful beaches and naval heritage",
+      "keywords": ["trincomalee", "port", "city", "beach", "naval", "heritage", "harbor", "eastern"]
+    },
+    {
+      "id": "15",
+      "name": "Jaffna",
+      "location": "Northern Province",
+      "category": "Cultural",
+      "image": "/images/jaffna.jpg",
+      "rating": 4.1,
+      "description": "Cultural capital of the north with unique Tamil heritage",
+      "keywords": ["jaffna", "cultural", "tamil", "heritage", "northern", "temple", "fort", "peninsula"]
+    },
+    {
+      "id": "16",
+      "name": "Sinharaja Forest Reserve",
+      "location": "Southern Province",
+      "category": "Adventure",
+      "image": "/images/sinharaja-forest-reserve.jpg",
+      "rating": 4.7,
+      "description": "UNESCO World Heritage tropical rainforest with endemic wildlife",
+      "keywords": ["sinharaja", "forest", "rainforest", "wildlife", "unesco", "endemic", "birds", "nature"]
+    },
+    {
+      "id": "17",
+      "name": "Horton Plains National Park",
+      "location": "Central Province",
+      "category": "Adventure",
+      "image": "/images/horton-plains.jpg",
+      "rating": 4.4,
+      "description": "Highland national park with World's End viewpoint and unique flora",
+      "keywords": ["horton", "plains", "worlds", "end", "highland", "national", "park", "hiking", "viewpoint"]
+    },
+    {
+      "id": "18",
+      "name": "Dambulla Cave Temple",
+      "location": "Central Province",
+      "category": "Religious",
+      "image": "/images/dambulla-cave.jpg",
+      "rating": 4.5,
+      "description": "Ancient cave temple complex with Buddhist murals and statues",
+      "keywords": ["dambulla", "cave", "temple", "buddhist", "murals", "statues", "ancient", "golden"]
+    },
+    {
+      "id": "19",
+      "name": "Bentota Beach",
+      "location": "Southern Province",
+      "category": "Leisure",
+      "image": "/images/bentota-beach.jpg",
+      "rating": 4.3,
+      "description": "Beautiful beach resort town with water sports and relaxation",
+      "keywords": ["bentota", "beach", "resort", "water", "sports", "relaxation", "hotel", "spa"]
+    },
+    {
+      "id": "20",
+      "name": "Trincomalee",
+      "location": "Eastern Province",
+      "category": "Leisure",
+      "image": "/images/trincomalee.jpg",
+      "rating": 4.2,
+      "description": "Historic port city with beautiful beaches and naval heritage",
+      "keywords": ["trincomalee", "port", "city", "beach", "naval", "heritage", "harbor", "eastern"]
+    }
+  ]
+}

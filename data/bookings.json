@@ -1,0 +1,119 @@
+{
+  "bookings": [
+    {
+      "id": "BK2024001",
+      "travellerName": "John Smith",
+      "email": "john.smith@email.com",
+      "phone": "+1 555 123 4567",
+      "source": "Mumbai",
+      "destination": "Colombo",
+      "duration": 7,
+      "travelers": 2,
+      "package": "Standard",
+      "totalCost": 1198,
+      "currency": "USD",
+      "status": "confirmed",
+      "createdAt": "2024-01-15T10:30:00Z",
+      "startDate": "2024-02-01",
+      "endDate": "2024-02-08",
+      "services": ["Transport", "Accommodation", "Tours"],
+      "vendorAssignments": [
+        {
+          "id": "va_001",
+          "vendorName": "Sri Lanka Tours & Travels",
+          "serviceType": "Transport",
+          "status": "accepted",
+          "assignedAt": "2024-01-15T11:00:00Z",
+          "responseTime": "30 minutes"
+        },
+        {
+          "id": "va_002",
+          "vendorName": "Cinnamon Grand Colombo",
+          "serviceType": "Accommodation",
+          "status": "accepted",
+          "assignedAt": "2024-01-15T11:15:00Z",
+          "responseTime": "15 minutes"
+        }
+      ],
+      "proposals": [
+        {
+          "id": "prop_001",
+          "vendorName": "Ella Adventures",
+          "serviceType": "Tours",
+          "originalPrice": 80,
+          "proposedPrice": 70,
+          "status": "accepted",
+          "validUntil": "2024-01-16T11:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "BK2024002",
+      "travellerName": "Sarah Johnson",
+      "email": "sarah.j@email.com",
+      "phone": "+44 20 7946 0958",
+      "source": "London",
+      "destination": "Kandy",
+      "duration": 5,
+      "travelers": 1,
+      "package": "Premium",
+      "totalCost": 999,
+      "currency": "USD",
+      "status": "pending",
+      "createdAt": "2024-01-16T14:20:00Z",
+      "startDate": "2024-02-15",
+      "endDate": "2024-02-20",
+      "services": ["Transport", "Accommodation", "Cultural Tours"],
+      "vendorAssignments": [
+        {
+          "id": "va_003",
+          "vendorName": "Kandy Heritage Tours",
+          "serviceType": "Cultural Tours",
+          "status": "assigned",
+          "assignedAt": "2024-01-16T14:30:00Z",
+          "responseTime": "Pending"
+        }
+      ],
+      "proposals": []
+    },
+    {
+      "id": "BK2024003",
+      "travellerName": "Amit Sharma",
+      "email": "amit.sharma@gmail.com",
+      "phone": "+91 98765 43210",
+      "source": "Delhi",
+      "destination": "Sigiriya",
+      "duration": 3,
+      "travelers": 4,
+      "package": "Economy",
+      "totalCost": 450,
+      "currency": "USD",
+      "status": "in_progress",
+      "createdAt": "2024-01-17T09:15:00Z",
+      "startDate": "2024-02-10",
+      "endDate": "2024-02-13",
+      "services": ["Transport", "Accommodation", "Heritage Tours"],
+      "vendorAssignments": [
+        {
+          "id": "va_004",
+          "vendorName": "Colombo Transport Services",
+          "serviceType": "Transport",
+          "status": "accepted",
+          "assignedAt": "2024-01-17T09:30:00Z",
+          "responseTime": "15 minutes"
+        }
+      ],
+      "proposals": [
+        {
+          "id": "prop_002",
+          "vendorName": "Sigiriya Heritage Tours",
+          "serviceType": "Heritage Tours",
+          "originalPrice": 60,
+          "proposedPrice": 50,
+          "status": "pending",
+          "validUntil": "2024-01-18T09:30:00Z"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "homePickups": [
+    {
+      "id": "hp_001",
+      "name": "City Cab Services",
+      "type": "home_pickup",
+      "description": "Reliable home pickup service to airport",
+      "price": 25,
+      "currency": "USD",
+      "rating": 4.5,
+      "location": "Colombo",
+      "contact": "+94 11 234 5678",
+      "availability": true,
+      "governmentApproved": true,
+      "features": ["Air conditioning", "English speaking driver", "GPS tracking"],
+      "estimatedTime": "45 minutes",
+      "vehicleType": "Sedan",
+      "maxPassengers": 4
+    },
+    {
+      "id": "hp_002", 
+      "name": "Premium Airport Transfers",
+      "type": "home_pickup",
+      "description": "Luxury airport transfer service",
+      "price": 45,
+      "currency": "USD",
+      "rating": 4.8,
+      "location": "Colombo",
+      "contact": "+94 11 345 6789",
+      "availability": true,
+      "governmentApproved": true,
+      "features": ["Luxury vehicle", "Complimentary water", "WiFi"],
+      "estimatedTime": "40 minutes",
+      "vehicleType": "Luxury Sedan",
+      "maxPassengers": 4
+    }
+  ],
+  "airportTransfers": [
+    {
+      "id": "at_001",
+      "name": "Airport Express",
+      "type": "airport_transfer",
+      "description": "Direct airport to hotel transfer",
+      "price": 20,
+      "currency": "USD",
+      "rating": 4.3,
+      "location": "Bandaranaike International Airport",
+      "contact": "+94 11 456 7890",
+      "availability": true,
+      "governmentApproved": true,
+      "features": ["Meet and greet", "Luggage assistance", "24/7 service"],
+      "estimatedTime": "1 hour",
+      "vehicleType": "Van",
+      "maxPassengers": 8
+    }
+  ],
+  "localTransport": [
+    {
+      "id": "lt_001",
+      "name": "Sri Lanka Tours Transport",
+      "type": "local_transport",
+      "description": "Local transport for sightseeing",
+      "price": 60,
+      "currency": "USD",
+      "rating": 4.6,
+      "location": "Kandy",
+      "contact": "+94 81 234 5678",
+      "availability": true,
+      "governmentApproved": true,
+      "features": ["Air conditioning", "Experienced driver", "Flexible itinerary"],
+      "estimatedTime": "Full day",
+      "vehicleType": "Van",
+      "maxPassengers": 8
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "accommodations": [
+    {
+      "id": "ht_001",
+      "name": "Cinnamon Grand Colombo",
+      "type": "hotel",
+      "description": "Luxury 5-star hotel in Colombo city center",
+      "price": 120,
+      "currency": "USD",
+      "rating": 4.8,
+      "location": "Colombo",
+      "contact": "+94 11 249 1000",
+      "availability": true,
+      "governmentApproved": true,
+      "features": ["Swimming pool", "Spa", "Multiple restaurants", "Business center"],
+      "roomType": "Deluxe Room",
+      "amenities": ["WiFi", "Air conditioning", "Mini bar", "Room service"],
+      "checkIn": "14:00",
+      "checkOut": "12:00"
+    },
+    {
+      "id": "ht_002",
+      "name": "Ella Heritage Hotel",
+      "type": "hotel", 
+      "description": "Boutique hotel with mountain views",
+      "price": 85,
+      "currency": "USD",
+      "rating": 4.6,
+      "location": "Ella",
+      "contact": "+94 57 222 3456",
+      "availability": true,
+      "governmentApproved": true,
+      "features": ["Mountain views", "Garden restaurant", "Hiking trails"],
+      "roomType": "Standard Room",
+      "amenities": ["WiFi", "Air conditioning", "Balcony"],
+      "checkIn": "14:00",
+      "checkOut": "11:00"
+    },
+    {
+      "id": "hs_001",
+      "name": "Kandy Homestay",
+      "type": "homestay",
+      "description": "Traditional Sri Lankan homestay experience",
+      "price": 35,
+      "currency": "USD", 
+      "rating": 4.4,
+      "location": "Kandy",
+      "contact": "+94 81 234 5678",
+      "availability": true,
+      "governmentApproved": true,
+      "features": ["Home-cooked meals", "Cultural experience", "Family atmosphere"],
+      "roomType": "Private Room",
+      "amenities": ["WiFi", "Shared bathroom", "Breakfast included"],
+      "checkIn": "15:00",
+      "checkOut": "10:00"
+    }
+  ]
+}

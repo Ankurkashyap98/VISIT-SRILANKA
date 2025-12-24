@@ -1,0 +1,89 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Central Province",
+        "capital": "Kandy",
+        "highlights": ["Temple of the Sacred Tooth Relic", "Tea Plantations", "Cultural Heritage"],
+        "color": "#3B82F6"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [80.0, 7.5],
+          [81.5, 7.0],
+          [81.0, 6.5],
+          [80.5, 6.0],
+          [80.0, 6.5],
+          [79.5, 7.0],
+          [80.0, 7.5]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Southern Province",
+        "capital": "Galle",
+        "highlights": ["Beaches", "Galle Fort", "Wildlife Sanctuaries"],
+        "color": "#10B981"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [79.5, 6.0],
+          [81.0, 5.5],
+          [81.5, 5.0],
+          [81.0, 4.5],
+          [80.0, 4.0],
+          [79.0, 4.5],
+          [79.5, 6.0]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Northern Province",
+        "capital": "Jaffna",
+        "highlights": ["Ancient Temples", "Cultural Diversity", "Historical Sites"],
+        "color": "#F59E0B"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [79.5, 10.0],
+          [81.0, 9.5],
+          [81.5, 9.0],
+          [81.0, 8.5],
+          [80.0, 8.0],
+          [79.0, 8.5],
+          [79.5, 10.0]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Eastern Province",
+        "capital": "Batticaloa",
+        "highlights": ["Trincomalee Harbor", "Beaches", "Cultural Heritage"],
+        "color": "#8B5CF6"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [81.0, 8.0],
+          [82.5, 7.5],
+          [83.0, 7.0],
+          [82.5, 6.5],
+          [81.5, 6.0],
+          [80.5, 6.5],
+          [81.0, 8.0]
+        ]]
+      }
+    }
+  ]
+}

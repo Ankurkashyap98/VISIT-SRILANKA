@@ -1,0 +1,507 @@
+{
+  "adventureActivities": [
+    {
+      "id": "adv-001",
+      "name": "Adam's Peak Sunrise Trek",
+      "location": "Adam's Peak",
+      "category": "Hiking",
+      "difficulty": "Hard",
+      "duration": "6-8 hours",
+      "price": 150,
+      "currency": "USD",
+      "rating": 4.8,
+      "reviews": 234,
+      "description": "Challenge yourself with the sacred pilgrimage trek to Adam's Peak summit for an unforgettable sunrise experience",
+      "highlights": [
+        "Sacred pilgrimage site",
+        "Spectacular sunrise views",
+        "5,500+ steps to summit",
+        "Spiritual significance",
+        "Photography opportunities"
+      ],
+      "includes": [
+        "Professional guide",
+        "Transportation",
+        "Entry fees",
+        "Basic first aid",
+        "Water and snacks"
+      ],
+      "requirements": [
+        "Good physical fitness",
+        "Hiking shoes",
+        "Warm clothing",
+        "Headlamp",
+        "Water bottle"
+      ],
+      "bestTime": "December to April",
+      "groupSize": "2-12 people",
+      "ageLimit": "16+",
+      "image": "/images/activities/adams-peak-trek.jpg",
+      "equipment": [
+        "Headlamp",
+        "Walking sticks",
+        "First aid kit",
+        "Emergency communication"
+      ],
+      "safety": [
+        "Certified guides",
+        "Emergency procedures",
+        "Weather monitoring",
+        "First aid trained staff"
+      ]
+    },
+    {
+      "id": "adv-002",
+      "name": "Yala National Park Safari",
+      "location": "Yala National Park",
+      "category": "Wildlife Safari",
+      "difficulty": "Easy",
+      "duration": "4-6 hours",
+      "price": 120,
+      "currency": "USD",
+      "rating": 4.9,
+      "reviews": 456,
+      "description": "Experience Sri Lanka's most famous wildlife sanctuary with expert guides to spot leopards, elephants, and diverse birdlife",
+      "highlights": [
+        "Leopard spotting opportunities",
+        "Asian elephant herds",
+        "Over 200 bird species",
+        "Crocodile encounters",
+        "Scenic landscapes"
+      ],
+      "includes": [
+        "4WD safari vehicle",
+        "Expert naturalist guide",
+        "Park entrance fees",
+        "Binoculars",
+        "Refreshments"
+      ],
+      "requirements": [
+        "Camera for wildlife photography",
+        "Comfortable clothing",
+        "Sunscreen",
+        "Hat",
+        "Insect repellent"
+      ],
+      "bestTime": "October to April",
+      "groupSize": "6-8 people",
+      "ageLimit": "5+",
+      "image": "/images/activities/yala-safari.jpg",
+      "equipment": [
+        "Binoculars",
+        "Spotlight for night safari",
+        "Camera with zoom lens",
+        "Field guide books"
+      ],
+      "safety": [
+        "Park ranger escort",
+        "Vehicle safety equipment",
+        "Emergency communication",
+        "First aid trained guides"
+      ]
+    },
+    {
+      "id": "adv-003",
+      "name": "Arugam Bay Surfing",
+      "location": "Arugam Bay",
+      "category": "Water Sports",
+      "difficulty": "Moderate",
+      "duration": "2-4 hours",
+      "price": 80,
+      "currency": "USD",
+      "rating": 4.7,
+      "reviews": 189,
+      "description": "Ride the perfect waves of Arugam Bay, one of the world's best surf spots with professional instructors",
+      "highlights": [
+        "World-class surf breaks",
+        "Professional instruction",
+        "Equipment included",
+        "Beautiful beach setting",
+        "International surf community"
+      ],
+      "includes": [
+        "Surfboard rental",
+        "Professional instructor",
+        "Wetsuit (if needed)",
+        "Safety briefing",
+        "Basic photography"
+      ],
+      "requirements": [
+        "Swimming ability",
+        "Comfortable swimwear",
+        "Sunscreen",
+        "Water bottle",
+        "Positive attitude"
+      ],
+      "bestTime": "April to October",
+      "groupSize": "1-6 people",
+      "ageLimit": "12+",
+      "image": "/images/activities/arugam-surfing.jpg",
+      "equipment": [
+        "Surfboards (various sizes)",
+        "Wetsuits",
+        "Leashes",
+        "Safety equipment"
+      ],
+      "safety": [
+        "Certified surf instructors",
+        "Life jackets available",
+        "Emergency rescue equipment",
+        "Weather monitoring"
+      ]
+    },
+    {
+      "id": "adv-004",
+      "name": "Ella Rock Hiking",
+      "location": "Ella",
+      "category": "Hiking",
+      "difficulty": "Moderate",
+      "duration": "3-4 hours",
+      "price": 60,
+      "currency": "USD",
+      "rating": 4.6,
+      "reviews": 312,
+      "description": "Hike to Ella Rock for panoramic views of the hill country and famous Nine Arch Bridge",
+      "highlights": [
+        "360-degree panoramic views",
+        "Nine Arch Bridge view",
+        "Tea plantation scenery",
+        "Local village experience",
+        "Photography opportunities"
+      ],
+      "includes": [
+        "Professional guide",
+        "Transportation to trailhead",
+        "Water and snacks",
+        "Basic first aid",
+        "Local insights"
+      ],
+      "requirements": [
+        "Moderate fitness level",
+        "Hiking shoes",
+        "Comfortable clothing",
+        "Water bottle",
+        "Camera"
+      ],
+      "bestTime": "Year-round",
+      "groupSize": "2-10 people",
+      "ageLimit": "10+",
+      "image": "/images/activities/ella-rock-hiking.jpg",
+      "equipment": [
+        "Walking sticks",
+        "First aid kit",
+        "Binoculars",
+        "Map and compass"
+      ],
+      "safety": [
+        "Local experienced guides",
+        "Weather updates",
+        "Emergency procedures",
+        "Group coordination"
+      ]
+    },
+    {
+      "id": "adv-005",
+      "name": "White Water Rafting",
+      "location": "Kitulgala",
+      "category": "Water Sports",
+      "difficulty": "Hard",
+      "duration": "4-5 hours",
+      "price": 100,
+      "currency": "USD",
+      "rating": 4.5,
+      "reviews": 156,
+      "description": "Navigate thrilling rapids on the Kelani River with professional rafting guides and safety equipment",
+      "highlights": [
+        "Grade 3-4 rapids",
+        "Scenic river journey",
+        "Professional safety team",
+        "Team building experience",
+        "Refreshment stops"
+      ],
+      "includes": [
+        "Rafting equipment",
+        "Professional guide",
+        "Safety gear",
+        "Lunch",
+        "Transportation"
+      ],
+      "requirements": [
+        "Swimming ability",
+        "Good physical fitness",
+        "Comfortable clothing",
+        "Water shoes",
+        "Positive attitude"
+      ],
+      "bestTime": "November to April",
+      "groupSize": "6-8 people",
+      "ageLimit": "16+",
+      "image": "/images/activities/white-water-rafting.jpg",
+      "equipment": [
+        "Rafting rafts",
+        "Paddles",
+        "Life jackets",
+        "Helmets",
+        "Safety ropes"
+      ],
+      "safety": [
+        "Certified rafting guides",
+        "Safety briefing",
+        "Rescue equipment",
+        "Emergency procedures",
+        "Weather monitoring"
+      ]
+    },
+    {
+      "id": "adv-006",
+      "name": "Horton Plains World's End",
+      "location": "Horton Plains",
+      "category": "Hiking",
+      "difficulty": "Moderate",
+      "duration": "3-4 hours",
+      "price": 70,
+      "currency": "USD",
+      "rating": 4.4,
+      "reviews": 278,
+      "description": "Hike through cloud forests to the dramatic World's End viewpoint with stunning cliff views",
+      "highlights": [
+        "World's End viewpoint",
+        "Cloud forest ecosystem",
+        "Baker's Falls",
+        "Unique wildlife",
+        "Cool climate"
+      ],
+      "includes": [
+        "Professional guide",
+        "Park entrance fees",
+        "Transportation",
+        "Water and snacks",
+        "Nature interpretation"
+      ],
+      "requirements": [
+        "Moderate fitness",
+        "Walking shoes",
+        "Warm clothing",
+        "Rain jacket",
+        "Camera"
+      ],
+      "bestTime": "Year-round (early morning)",
+      "groupSize": "2-12 people",
+      "ageLimit": "8+",
+      "image": "/images/activities/horton-plains.jpg",
+      "equipment": [
+        "Binoculars",
+        "Field guides",
+        "First aid kit",
+        "Emergency communication"
+      ],
+      "safety": [
+        "Park ranger guides",
+        "Weather updates",
+        "Emergency procedures",
+        "Group management"
+      ]
+    },
+    {
+      "id": "adv-007",
+      "name": "Whale Watching",
+      "location": "Mirissa",
+      "category": "Marine Wildlife",
+      "difficulty": "Easy",
+      "duration": "4-6 hours",
+      "price": 90,
+      "currency": "USD",
+      "rating": 4.8,
+      "reviews": 423,
+      "description": "Spot blue whales, sperm whales, and dolphins in their natural habitat with experienced marine guides",
+      "highlights": [
+        "Blue whale sightings",
+        "Sperm whale encounters",
+        "Dolphin pods",
+        "Marine photography",
+        "Sunrise/sunset trips"
+      ],
+      "includes": [
+        "Boat trip",
+        "Marine biologist guide",
+        "Binoculars",
+        "Refreshments",
+        "Safety equipment"
+      ],
+      "requirements": [
+        "Seasickness medication (if needed)",
+        "Comfortable clothing",
+        "Sunscreen",
+        "Camera",
+        "Water bottle"
+      ],
+      "bestTime": "November to April",
+      "groupSize": "20-30 people",
+      "ageLimit": "5+",
+      "image": "/images/activities/whale-watching.jpg",
+      "equipment": [
+        "Binoculars",
+        "Spotting scopes",
+        "Life jackets",
+        "Emergency communication"
+      ],
+      "safety": [
+        "Certified boat operators",
+        "Marine safety equipment",
+        "Weather monitoring",
+        "Emergency procedures"
+      ]
+    },
+    {
+      "id": "adv-008",
+      "name": "Mountain Biking",
+      "location": "Kandy",
+      "category": "Cycling",
+      "difficulty": "Hard",
+      "duration": "5-6 hours",
+      "price": 85,
+      "currency": "USD",
+      "rating": 4.3,
+      "reviews": 134,
+      "description": "Mountain bike through tea plantations and hill country trails with professional guides",
+      "highlights": [
+        "Tea plantation trails",
+        "Hill country scenery",
+        "Local village visits",
+        "Cultural interactions",
+        "Adventure cycling"
+      ],
+      "includes": [
+        "Mountain bike rental",
+        "Professional guide",
+        "Safety gear",
+        "Lunch",
+        "Transportation"
+      ],
+      "requirements": [
+        "Good cycling fitness",
+        "Comfortable clothing",
+        "Cycling shoes (optional)",
+        "Water bottle",
+        "Positive attitude"
+      ],
+      "bestTime": "Year-round",
+      "groupSize": "2-8 people",
+      "ageLimit": "16+",
+      "image": "/images/activities/mountain-biking.jpg",
+      "equipment": [
+        "Mountain bikes",
+        "Helmets",
+        "Safety gear",
+        "Repair kit",
+        "First aid kit"
+      ],
+      "safety": [
+        "Certified cycling guides",
+        "Safety briefing",
+        "Emergency procedures",
+        "Group coordination"
+      ]
+    },
+    {
+      "id": "adv-009",
+      "name": "Scuba Diving",
+      "location": "Hikkaduwa",
+      "category": "Water Sports",
+      "difficulty": "Moderate",
+      "duration": "3-4 hours",
+      "price": 110,
+      "currency": "USD",
+      "rating": 4.6,
+      "reviews": 198,
+      "description": "Explore Sri Lanka's underwater world with certified dive instructors and modern equipment",
+      "highlights": [
+        "Coral reef exploration",
+        "Tropical fish sightings",
+        "Underwater photography",
+        "Professional instruction",
+        "Safety first approach"
+      ],
+      "includes": [
+        "Diving equipment",
+        "Certified instructor",
+        "Underwater photography",
+        "Refreshments",
+        "Safety briefing"
+      ],
+      "requirements": [
+        "Swimming ability",
+        "Medical clearance",
+        "Comfortable swimwear",
+        "Underwater camera (optional)",
+        "Positive attitude"
+      ],
+      "bestTime": "November to April",
+      "groupSize": "4-8 people",
+      "ageLimit": "12+",
+      "image": "/images/activities/scuba-diving.jpg",
+      "equipment": [
+        "Diving gear",
+        "Underwater cameras",
+        "Safety equipment",
+        "Emergency oxygen"
+      ],
+      "safety": [
+        "PADI certified instructors",
+        "Safety equipment",
+        "Emergency procedures",
+        "Weather monitoring"
+      ]
+    },
+    {
+      "id": "adv-010",
+      "name": "Rock Climbing",
+      "location": "Sigiriya",
+      "category": "Climbing",
+      "difficulty": "Hard",
+      "duration": "4-5 hours",
+      "price": 120,
+      "currency": "USD",
+      "rating": 4.7,
+      "reviews": 167,
+      "description": "Scale ancient rock formations with professional climbing guides and modern safety equipment",
+      "highlights": [
+        "Ancient rock formations",
+        "Professional instruction",
+        "Safety equipment",
+        "Scenic views",
+        "Adventure challenge"
+      ],
+      "includes": [
+        "Climbing equipment",
+        "Professional guide",
+        "Safety gear",
+        "Water and snacks",
+        "Basic instruction"
+      ],
+      "requirements": [
+        "Good physical fitness",
+        "Comfortable clothing",
+        "Climbing shoes (provided)",
+        "Water bottle",
+        "Adventure spirit"
+      ],
+      "bestTime": "Year-round",
+      "groupSize": "2-6 people",
+      "ageLimit": "16+",
+      "image": "/images/activities/rock-climbing.jpg",
+      "equipment": [
+        "Climbing gear",
+        "Safety harnesses",
+        "Helmets",
+        "Ropes and anchors"
+      ],
+      "safety": [
+        "Certified climbing guides",
+        "Safety briefing",
+        "Emergency procedures",
+        "Equipment inspection"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Sigiriya Rock Fortress",
+    "category": "Historical",
+    "location": "Central Province",
+    "tags": ["UNESCO", "Ancient", "Fortress", "Frescoes"]
+  },
+  {
+    "title": "Temple of the Sacred Tooth Relic",
+    "category": "Religious",
+    "location": "Kandy",
+    "tags": ["Buddhist", "Sacred", "Relic", "Ceremony"]
+  },
+  {
+    "title": "Yala National Park",
+    "category": "Wildlife",
+    "location": "Southern Province",
+    "tags": ["Leopard", "Elephant", "Safari", "Nature"]
+  },
+  {
+    "title": "Sinharaja Forest Reserve",
+    "category": "Adventure",
+    "location": "Southern Province",
+    "tags": ["Rainforest", "Endemic", "Hiking", "Biodiversity"]
+  },
+  {
+    "title": "Galle Fort",
+    "category": "Historical",
+    "location": "Galle",
+    "tags": ["Dutch", "Colonial", "UNESCO", "Architecture"]
+  },
+  {
+    "title": "Ella Rock",
+    "category": "Adventure",
+    "location": "Ella",
+    "tags": ["Hiking", "Mountain", "Scenic", "Train"]
+  }
+]

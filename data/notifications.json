@@ -1,0 +1,52 @@
+{
+  "notifications": [
+    {
+      "id": "n_001",
+      "type": "booking_assignment",
+      "title": "New Booking Assignment",
+      "message": "You have been assigned to provide transport services for booking #BK2024001",
+      "recipient": "v_004",
+      "recipientType": "vendor",
+      "bookingId": "BK2024001",
+      "serviceType": "transport",
+      "status": "unread",
+      "createdAt": "2024-01-15T10:30:00Z",
+      "expiresAt": "2024-01-16T10:30:00Z",
+      "priority": "high",
+      "actionRequired": true,
+      "actionUrl": "/vendor/bookings/BK2024001"
+    },
+    {
+      "id": "n_002",
+      "type": "proposal_request",
+      "title": "Service Proposal Request",
+      "message": "Please submit your proposal for accommodation services in Kandy",
+      "recipient": "v_001",
+      "recipientType": "vendor",
+      "bookingId": "BK2024001",
+      "serviceType": "accommodation",
+      "status": "unread",
+      "createdAt": "2024-01-15T11:00:00Z",
+      "expiresAt": "2024-01-16T11:00:00Z",
+      "priority": "medium",
+      "actionRequired": true,
+      "actionUrl": "/vendor/proposals/new"
+    },
+    {
+      "id": "n_003",
+      "type": "booking_confirmation",
+      "title": "Booking Confirmed",
+      "message": "Your booking #BK2024001 has been confirmed. Travel details sent to your email.",
+      "recipient": "user_001",
+      "recipientType": "traveler",
+      "bookingId": "BK2024001",
+      "serviceType": "booking",
+      "status": "read",
+      "createdAt": "2024-01-15T12:00:00Z",
+      "expiresAt": null,
+      "priority": "high",
+      "actionRequired": false,
+      "actionUrl": "/booking/BK2024001"
+    }
+  ]
+}

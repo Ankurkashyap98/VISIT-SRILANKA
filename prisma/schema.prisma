@@ -1,0 +1,224 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+// User model for authentication
+model User {
+  id            String    @id @default(cuid())
+  name          String?
+  email         String    @unique
+  emailVerified DateTime?
+  image         String?
+  password      String?   // For credentials provider
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+
+  // User profile information
+  phone         String?
+  location      String?
+  bio           String?
+  preferredTravelType String @default("tourist")
+  
+  // User roles and permissions
+  role          String    @default("user") // user, partner, admin
+  userType      String    @default("tourist") // tourist, medical-tourist, luxury-traveler, etc.
+  verified      Boolean   @default(false)
+  
+  // Relationships
+  accounts      Account[]
+  sessions      Session[]
+  bookings      Booking[]
+  reviews       Review[]
+  listings      Listing[] // For hosts
+  vehicles      Vehicle[] // For transport partners
+  services      Service[] // For medical partners
+
+  @@map("users")
+}
+
+// NextAuth.js required models
+model Account {
+  id                String  @id @default(cuid())
+  userId            String
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String? @db.Text
+  access_token      String? @db.Text
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String? @db.Text
+  session_state     String?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+  @@map("accounts")
+}
+
+model Session {
+  id           String   @id @default(cuid())
+  sessionToken String   @unique
+  userId       String
+  expires      DateTime
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("sessions")
+}
+
+model VerificationToken {
+  identifier String
+  token      String   @unique
+  expires    DateTime
+
+  @@unique([identifier, token])
+  @@map("verification_tokens")
+}
+
+// Tourism-specific models
+model Destination {
+  id          String   @id @default(cuid())
+  name        String
+  description String   @db.Text
+  location    String
+  latitude    Float?
+  longitude   Float?
+  images      String   @db.Text // JSON string of image URLs
+  category    String   // cultural, natural, adventure, etc.
+  features    String   @db.Text // JSON string of features
+  isActive    Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  // Relationships
+  bookings    Booking[]
+  reviews     Review[]
+
+  @@map("destinations")
+}
+
+model Listing {
+  id          String   @id @default(cuid())
+  title       String
+  description String   @db.Text
+  address     String
+  latitude    Float?
+  longitude   Float?
+  images      String   @db.Text // JSON string of image URLs
+  amenities   String   @db.Text // JSON string of amenities
+  pricePerNight Float
+  maxGuests   Int
+  bedrooms    Int
+  bathrooms   Int
+  propertyType String  // house, apartment, villa, etc.
+  isActive    Boolean  @default(true)
+  verified    Boolean  @default(false)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  // Relationships
+  hostId      String
+  host        User     @relation(fields: [hostId], references: [id])
+  bookings    Booking[]
+  reviews     Review[]
+
+  @@map("listings")
+}
+
+model Booking {
+  id          String      @id @default(cuid())
+  checkIn     DateTime
+  checkOut    DateTime
+  guests      Int
+  totalPrice  Float
+  status      BookingStatus @default(PENDING)
+  notes       String?     @db.Text
+  createdAt   DateTime    @default(now())
+  updatedAt   DateTime    @updatedAt
+
+  // Relationships
+  userId      String
+  user        User        @relation(fields: [userId], references: [id])
+  destinationId String?
+  destination Destination? @relation(fields: [destinationId], references: [id])
+  listingId   String?
+  listing     Listing?    @relation(fields: [listingId], references: [id])
+
+  @@map("bookings")
+}
+
+model Review {
+  id          String   @id @default(cuid())
+  rating      Int      // 1-5 stars
+  comment     String   @db.Text
+  isVerified  Boolean  @default(false)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  // Relationships
+  userId      String
+  user        User     @relation(fields: [userId], references: [id])
+  destinationId String?
+  destination Destination? @relation(fields: [destinationId], references: [id])
+  listingId   String?
+  listing     Listing? @relation(fields: [listingId], references: [id])
+
+  @@map("reviews")
+}
+
+// Transport partner models
+model Vehicle {
+  id          String   @id @default(cuid())
+  make        String
+  model       String
+  year        Int
+  licensePlate String
+  capacity    Int
+  type        String   // car, van, bus, etc.
+  features    String   @db.Text // JSON string of features
+  isAvailable Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  // Relationships
+  ownerId     String
+  owner       User     @relation(fields: [ownerId], references: [id])
+
+  @@map("vehicles")
+}
+
+// Medical partner models
+model Service {
+  id          String   @id @default(cuid())
+  name        String
+  description String   @db.Text
+  category    String   // cardiology, dentistry, etc.
+  price       Float?
+  duration    Int?     // in minutes
+  isAvailable Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  // Relationships
+  providerId  String
+  provider    User     @relation(fields: [providerId], references: [id])
+
+  @@map("services")
+}
+
+// Enums
+enum BookingStatus {
+  PENDING
+  CONFIRMED
+  CANCELLED
+  COMPLETED
+}

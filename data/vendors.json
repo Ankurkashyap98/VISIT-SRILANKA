@@ -1,0 +1,72 @@
+{
+  "vendors": [
+    {
+      "id": "v_001",
+      "name": "Sri Lanka Tours & Travels",
+      "type": "tour_operator",
+      "description": "Professional tour operator with 15+ years experience",
+      "rating": 4.8,
+      "location": "Colombo",
+      "contact": "+94 11 234 5678",
+      "email": "info@srilankatours.com",
+      "governmentApproved": true,
+      "services": ["tours", "transport", "accommodation"],
+      "specialties": ["Cultural tours", "Adventure tours", "Wildlife safaris"],
+      "languages": ["English", "Sinhala", "Tamil"],
+      "certifications": ["SLTDA Licensed", "ISO 9001"],
+      "responseTime": "2 hours",
+      "availability": "24/7"
+    },
+    {
+      "id": "v_002",
+      "name": "Ella Adventures",
+      "type": "adventure_specialist",
+      "description": "Adventure and outdoor activity specialists",
+      "rating": 4.6,
+      "location": "Ella",
+      "contact": "+94 57 345 6789",
+      "email": "hello@ellaadventures.com",
+      "governmentApproved": true,
+      "services": ["tours", "transport"],
+      "specialties": ["Hiking", "Rock climbing", "Nature photography"],
+      "languages": ["English", "Sinhala"],
+      "certifications": ["Mountain Guide Certified"],
+      "responseTime": "1 hour",
+      "availability": "6 AM - 8 PM"
+    },
+    {
+      "id": "v_003",
+      "name": "Kandy Heritage Tours",
+      "type": "cultural_specialist",
+      "description": "Cultural and religious tour specialists",
+      "rating": 4.7,
+      "location": "Kandy",
+      "contact": "+94 81 456 7890",
+      "email": "tours@kandyheritage.com",
+      "governmentApproved": true,
+      "services": ["tours", "transport"],
+      "specialties": ["Temple tours", "Cultural experiences", "Religious sites"],
+      "languages": ["English", "Sinhala", "Tamil", "Hindi"],
+      "certifications": ["Cultural Guide License"],
+      "responseTime": "3 hours",
+      "availability": "8 AM - 6 PM"
+    },
+    {
+      "id": "v_004",
+      "name": "Colombo Transport Services",
+      "type": "transport_provider",
+      "description": "Reliable transport and airport transfer services",
+      "rating": 4.4,
+      "location": "Colombo",
+      "contact": "+94 11 567 8901",
+      "email": "bookings@colombotransport.com",
+      "governmentApproved": true,
+      "services": ["transport"],
+      "specialties": ["Airport transfers", "City tours", "Long distance travel"],
+      "languages": ["English", "Sinhala"],
+      "certifications": ["Transport License", "Insurance Certified"],
+      "responseTime": "1 hour",
+      "availability": "24/7"
+    }
+  ]
+}

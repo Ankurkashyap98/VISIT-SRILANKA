@@ -1,0 +1,282 @@
+{
+  "categories": [
+    {
+      "id": "cat-001",
+      "name": "Historical",
+      "description": "Ancient cities, archaeological sites, and historical monuments",
+      "icon": "Landmark",
+      "color": "#8B4513",
+      "bgColor": "#F5E6D3",
+      "destinations": [
+        "Anuradhapura",
+        "Polonnaruwa",
+        "Sigiriya",
+        "Dambulla",
+        "Galle Fort",
+        "Colombo Fort"
+      ],
+      "popularActivities": [
+        "Archaeological site tours",
+        "UNESCO World Heritage visits",
+        "Historical walking tours",
+        "Museum visits",
+        "Ancient architecture exploration"
+      ],
+      "bestTimeToVisit": "Year-round",
+      "averageDuration": "3-5 days",
+      "difficulty": "Easy to Moderate",
+      "budgetRange": "$300-800"
+    },
+    {
+      "id": "cat-002",
+      "name": "Religious",
+      "description": "Sacred temples, monasteries, and spiritual sites",
+      "icon": "Church",
+      "color": "#4169E1",
+      "bgColor": "#E6F2FF",
+      "destinations": [
+        "Kandy",
+        "Anuradhapura",
+        "Dambulla",
+        "Kataragama",
+        "Adam's Peak",
+        "Mihintale"
+      ],
+      "popularActivities": [
+        "Temple visits",
+        "Meditation retreats",
+        "Religious ceremonies",
+        "Pilgrimage walks",
+        "Spiritual tours"
+      ],
+      "bestTimeToVisit": "Year-round",
+      "averageDuration": "5-10 days",
+      "difficulty": "Easy to Moderate",
+      "budgetRange": "$200-600"
+    },
+    {
+      "id": "cat-003",
+      "name": "Adventure",
+      "description": "Thrilling outdoor activities and extreme sports",
+      "icon": "Mountain",
+      "color": "#228B22",
+      "bgColor": "#E8F5E8",
+      "destinations": [
+        "Ella",
+        "Horton Plains",
+        "Knuckles Range",
+        "Arugam Bay",
+        "Yala National Park",
+        "Sinharaja Forest"
+      ],
+      "popularActivities": [
+        "Hiking and trekking",
+        "Rock climbing",
+        "Surfing",
+        "Wildlife safaris",
+        "Mountain biking",
+        "White water rafting"
+      ],
+      "bestTimeToVisit": "December to March",
+      "averageDuration": "3-7 days",
+      "difficulty": "Moderate to Hard",
+      "budgetRange": "$400-1000"
+    },
+    {
+      "id": "cat-004",
+      "name": "Cultural",
+      "description": "Traditional arts, crafts, and local experiences",
+      "icon": "Users",
+      "color": "#FF6347",
+      "bgColor": "#FFF0ED",
+      "destinations": [
+        "Kandy",
+        "Colombo",
+        "Galle",
+        "Negombo",
+        "Batticaloa",
+        "Jaffna"
+      ],
+      "popularActivities": [
+        "Cultural performances",
+        "Traditional craft workshops",
+        "Local cooking classes",
+        "Village tours",
+        "Art gallery visits",
+        "Festival participation"
+      ],
+      "bestTimeToVisit": "Year-round",
+      "averageDuration": "4-8 days",
+      "difficulty": "Easy",
+      "budgetRange": "$250-700"
+    },
+    {
+      "id": "cat-005",
+      "name": "Medical",
+      "description": "Healthcare tourism and wellness treatments",
+      "icon": "Heart",
+      "color": "#DC143C",
+      "bgColor": "#FFE6E6",
+      "destinations": [
+        "Colombo",
+        "Kandy",
+        "Negombo",
+        "Galle",
+        "Bentota",
+        "Anuradhapura"
+      ],
+      "popularActivities": [
+        "Medical consultations",
+        "Surgical procedures",
+        "Dental treatments",
+        "Ayurvedic therapies",
+        "Wellness retreats",
+        "Spa treatments"
+      ],
+      "bestTimeToVisit": "Year-round",
+      "averageDuration": "7-21 days",
+      "difficulty": "Easy",
+      "budgetRange": "$500-3000"
+    },
+    {
+      "id": "cat-006",
+      "name": "Beach",
+      "description": "Coastal relaxation and water activities",
+      "icon": "Waves",
+      "color": "#00CED1",
+      "bgColor": "#E0FFFF",
+      "destinations": [
+        "Bentota",
+        "Mirissa",
+        "Hikkaduwa",
+        "Unawatuna",
+        "Trincomalee",
+        "Arugam Bay"
+      ],
+      "popularActivities": [
+        "Beach relaxation",
+        "Water sports",
+        "Snorkeling and diving",
+        "Whale watching",
+        "Sunset cruises",
+        "Beach parties"
+      ],
+      "bestTimeToVisit": "November to April",
+      "averageDuration": "3-10 days",
+      "difficulty": "Easy",
+      "budgetRange": "$300-1200"
+    },
+    {
+      "id": "cat-007",
+      "name": "Wildlife",
+      "description": "National parks and wildlife conservation areas",
+      "icon": "TreePine",
+      "color": "#32CD32",
+      "bgColor": "#F0FFF0",
+      "destinations": [
+        "Yala National Park",
+        "Wilpattu National Park",
+        "Udawalawe National Park",
+        "Bundala National Park",
+        "Sinharaja Forest Reserve",
+        "Minneriya National Park"
+      ],
+      "popularActivities": [
+        "Wildlife safaris",
+        "Bird watching",
+        "Elephant encounters",
+        "Leopard spotting",
+        "Nature photography",
+        "Conservation tours"
+      ],
+      "bestTimeToVisit": "October to April",
+      "averageDuration": "2-5 days",
+      "difficulty": "Easy to Moderate",
+      "budgetRange": "$200-800"
+    },
+    {
+      "id": "cat-008",
+      "name": "Luxury",
+      "description": "Premium accommodations and exclusive experiences",
+      "icon": "Crown",
+      "color": "#FFD700",
+      "bgColor": "#FFFACD",
+      "destinations": [
+        "Bentota",
+        "Colombo",
+        "Kandy",
+        "Galle",
+        "Ella",
+        "Trincomalee"
+      ],
+      "popularActivities": [
+        "Luxury resort stays",
+        "Private tours",
+        "Fine dining experiences",
+        "Exclusive spa treatments",
+        "Helicopter tours",
+        "Private yacht charters"
+      ],
+      "bestTimeToVisit": "Year-round",
+      "averageDuration": "5-14 days",
+      "difficulty": "Easy",
+      "budgetRange": "$1000-5000"
+    },
+    {
+      "id": "cat-009",
+      "name": "Wellness",
+      "description": "Health and wellness retreats and treatments",
+      "icon": "Heart",
+      "color": "#9370DB",
+      "bgColor": "#F8F0FF",
+      "destinations": [
+        "Bentota",
+        "Kandy",
+        "Colombo",
+        "Galle",
+        "Negombo",
+        "Anuradhapura"
+      ],
+      "popularActivities": [
+        "Ayurvedic treatments",
+        "Yoga retreats",
+        "Meditation sessions",
+        "Detox programs",
+        "Spa therapies",
+        "Wellness consultations"
+      ],
+      "bestTimeToVisit": "Year-round",
+      "averageDuration": "7-21 days",
+      "difficulty": "Easy",
+      "budgetRange": "$400-2000"
+    },
+    {
+      "id": "cat-010",
+      "name": "Food & Cuisine",
+      "description": "Culinary experiences and local food tours",
+      "icon": "Utensils",
+      "color": "#FF4500",
+      "bgColor": "#FFF4E6",
+      "destinations": [
+        "Colombo",
+        "Kandy",
+        "Galle",
+        "Negombo",
+        "Jaffna",
+        "Batticaloa"
+      ],
+      "popularActivities": [
+        "Food tours",
+        "Cooking classes",
+        "Street food exploration",
+        "Restaurant hopping",
+        "Spice garden visits",
+        "Traditional meal experiences"
+      ],
+      "bestTimeToVisit": "Year-round",
+      "averageDuration": "2-5 days",
+      "difficulty": "Easy",
+      "budgetRange": "$150-500"
+    }
+  ]
+}

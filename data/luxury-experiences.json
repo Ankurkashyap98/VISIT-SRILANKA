@@ -1,0 +1,435 @@
+{
+  "luxuryExperiences": [
+    {
+      "id": "lux-001",
+      "name": "Private Helicopter Tour",
+      "location": "Colombo to Sigiriya",
+      "category": "Transportation",
+      "price": 2500,
+      "currency": "USD",
+      "duration": "2 hours",
+      "rating": 5.0,
+      "reviews": 45,
+      "description": "Exclusive helicopter tour offering breathtaking aerial views of Sri Lanka's most iconic landmarks",
+      "highlights": [
+        "Aerial view of Sigiriya Rock Fortress",
+        "Scenic flight over tea plantations",
+        "Private pilot and guide",
+        "Luxury helicopter with panoramic windows",
+        "Champagne service onboard"
+      ],
+      "includes": [
+        "Private helicopter charter",
+        "Professional pilot",
+        "Tour guide",
+        "Champagne and refreshments",
+        "Photography service",
+        "Ground transportation"
+      ],
+      "capacity": "4-6 passengers",
+      "availability": "Daily (weather permitting)",
+      "image": "/images/luxury/helicopter-tour.jpg",
+      "amenities": [
+        "Climate control",
+        "Leather seating",
+        "Noise-canceling headphones",
+        "Champagne service",
+        "Personal guide"
+      ],
+      "booking": {
+        "advanceBooking": "48 hours",
+        "cancellationPolicy": "24 hours",
+        "weatherPolicy": "Full refund for weather cancellation"
+      }
+    },
+    {
+      "id": "lux-002",
+      "name": "Overwater Villa Experience",
+      "location": "Bentota",
+      "category": "Accommodation",
+      "price": 800,
+      "currency": "USD",
+      "duration": "Per night",
+      "rating": 4.9,
+      "reviews": 78,
+      "description": "Exclusive overwater villa with private infinity pool, direct ocean access, and personalized butler service",
+      "highlights": [
+        "Private infinity pool",
+        "Direct ocean access",
+               "Personal butler service",
+        "Private beach area",
+        "Sunset dining deck",
+        "In-villa spa treatments"
+      ],
+      "includes": [
+        "Luxury overwater villa",
+        "Personal butler",
+        "All meals and beverages",
+        "Private pool and beach",
+        "Spa treatments",
+        "Water sports equipment"
+      ],
+      "capacity": "2-4 guests",
+      "availability": "Year-round",
+      "image": "/images/luxury/overwater-villa.jpg",
+      "amenities": [
+        "Private infinity pool",
+        "Ocean view bedroom",
+        "Luxury bathroom with ocean view",
+        "Private dining deck",
+        "Personal butler",
+        "In-villa spa",
+        "Water sports equipment"
+      ],
+      "booking": {
+        "advanceBooking": "30 days",
+        "cancellationPolicy": "7 days",
+        "minimumStay": "2 nights"
+      }
+    },
+    {
+      "id": "lux-003",
+      "name": "Michelin-Style Dining Experience",
+      "location": "Colombo",
+      "category": "Fine Dining",
+      "price": 300,
+      "currency": "USD",
+      "duration": "3-4 hours",
+      "rating": 4.8,
+      "reviews": 156,
+      "description": "Exclusive fine dining experience with world-class chef, wine pairing, and personalized service",
+      "highlights": [
+        "World-class chef preparation",
+        "Wine pairing with sommelier",
+        "Private dining room",
+        "Personalized menu",
+        "Live cooking demonstration"
+      ],
+      "includes": [
+        "7-course tasting menu",
+        "Premium wine pairing",
+        "Personal chef consultation",
+        "Private dining room",
+        "Sommelier service",
+        "After-dinner digestifs"
+      ],
+      "capacity": "2-8 guests",
+      "availability": "Evenings only",
+      "image": "/images/luxury/fine-dining.jpg",
+      "amenities": [
+        "Private dining room",
+        "Personal chef",
+        "Sommelier service",
+        "Premium wine cellar",
+        "Live cooking demo",
+        "Personalized service"
+      ],
+      "booking": {
+        "advanceBooking": "7 days",
+        "cancellationPolicy": "24 hours",
+        "dietaryRequirements": "Available"
+      }
+    },
+    {
+      "id": "lux-004",
+      "name": "Private Yacht Charter",
+      "location": "Trincomalee",
+      "category": "Marine Experience",
+      "price": 1500,
+      "currency": "USD",
+      "duration": "8 hours",
+      "rating": 4.9,
+      "reviews": 67,
+      "description": "Luxury yacht charter with private crew, gourmet dining, and exclusive access to pristine waters",
+      "highlights": [
+        "Luxury yacht with full crew",
+        "Private beach access",
+        "Gourmet onboard dining",
+        "Snorkeling and diving",
+        "Sunset cocktail service"
+      ],
+      "includes": [
+        "Luxury yacht charter",
+        "Professional crew",
+        "Gourmet meals and beverages",
+        "Snorkeling equipment",
+        "Private beach access",
+        "Photography service"
+      ],
+      "capacity": "8-12 guests",
+      "availability": "Daily (weather permitting)",
+      "image": "/images/luxury/yacht-charter.jpg",
+      "amenities": [
+        "Luxury yacht",
+        "Full crew service",
+        "Gourmet kitchen",
+        "Snorkeling equipment",
+        "Private beach access",
+        "Sunset deck"
+      ],
+      "booking": {
+        "advanceBooking": "14 days",
+        "cancellationPolicy": "48 hours",
+        "weatherPolicy": "Full refund for weather cancellation"
+      }
+    },
+    {
+      "id": "lux-005",
+      "name": "Exclusive Spa Retreat",
+      "location": "Bentota",
+      "category": "Wellness",
+      "price": 500,
+      "currency": "USD",
+      "duration": "6 hours",
+      "rating": 4.8,
+      "reviews": 89,
+      "description": "Ultimate wellness retreat with personalized treatments, meditation sessions, and luxury amenities",
+      "highlights": [
+        "Personalized treatment plan",
+        "Private spa suite",
+        "Meditation with guru",
+        "Ayurvedic treatments",
+        "Luxury relaxation areas"
+      ],
+      "includes": [
+        "Personal wellness consultation",
+        "Private spa suite",
+        "Multiple treatments",
+        "Meditation session",
+        "Healthy gourmet lunch",
+        "Personal therapist"
+      ],
+      "capacity": "1-2 guests",
+      "availability": "Daily",
+      "image": "/images/luxury/spa-retreat.jpg",
+      "amenities": [
+        "Private spa suite",
+        "Personal therapist",
+        "Meditation garden",
+        "Luxury relaxation areas",
+        "Healthy dining",
+        "Wellness consultation"
+      ],
+      "booking": {
+        "advanceBooking": "3 days",
+        "cancellationPolicy": "24 hours",
+        "healthConsultation": "Required"
+      }
+    },
+    {
+      "id": "lux-006",
+      "name": "Private Cultural Performance",
+      "location": "Kandy",
+      "category": "Cultural",
+      "price": 400,
+      "currency": "USD",
+      "duration": "2 hours",
+      "rating": 4.7,
+      "reviews": 123,
+      "description": "Exclusive traditional dance and music performance with master artists in a private setting",
+      "highlights": [
+        "Master artists performance",
+        "Private venue",
+        "Traditional costumes",
+        "Interactive experience",
+        "Cultural storytelling"
+      ],
+      "includes": [
+        "Private performance venue",
+        "Master artists",
+        "Traditional costumes",
+        "Cultural explanation",
+        "Refreshments",
+        "Photography opportunity"
+      ],
+      "capacity": "4-20 guests",
+      "availability": "Evenings",
+      "image": "/images/luxury/cultural-performance.jpg",
+      "amenities": [
+        "Private venue",
+        "Master artists",
+        "Traditional costumes",
+        "Cultural guide",
+        "Refreshments",
+        "Photography service"
+      ],
+      "booking": {
+        "advanceBooking": "5 days",
+        "cancellationPolicy": "24 hours",
+        "customization": "Available"
+      }
+    },
+    {
+      "id": "lux-007",
+      "name": "Luxury Train Journey",
+      "location": "Ella to Kandy",
+      "category": "Transportation",
+      "price": 600,
+      "currency": "USD",
+      "duration": "7 hours",
+      "rating": 4.9,
+      "reviews": 234,
+      "description": "Exclusive luxury train journey through tea plantations with gourmet dining and panoramic views",
+      "highlights": [
+        "Luxury private compartment",
+        "Gourmet dining service",
+        "Panoramic mountain views",
+        "Tea plantation scenery",
+        "Personal attendant"
+      ],
+      "includes": [
+        "Private luxury compartment",
+        "Gourmet meals",
+        "Premium beverages",
+        "Personal attendant",
+        "Scenic route commentary",
+        "Photography stops"
+      ],
+      "capacity": "2-4 guests",
+      "availability": "Daily",
+      "image": "/images/luxury/luxury-train.jpg",
+      "amenities": [
+        "Private compartment",
+        "Gourmet dining",
+        "Premium beverages",
+        "Personal attendant",
+        "Panoramic windows",
+        "Comfortable seating"
+      ],
+      "booking": {
+        "advanceBooking": "30 days",
+        "cancellationPolicy": "7 days",
+        "routeCustomization": "Available"
+      }
+    },
+    {
+      "id": "lux-008",
+      "name": "Private Wildlife Safari",
+      "location": "Yala National Park",
+      "category": "Wildlife",
+      "price": 800,
+      "currency": "USD",
+      "duration": "8 hours",
+      "rating": 4.8,
+      "reviews": 156,
+      "description": "Exclusive wildlife safari with luxury vehicle, expert guide, and personalized service",
+      "highlights": [
+        "Luxury safari vehicle",
+        "Expert wildlife guide",
+        "Private safari experience",
+        "Premium photography equipment",
+        "Gourmet picnic lunch"
+      ],
+      "includes": [
+        "Luxury safari vehicle",
+        "Expert wildlife guide",
+        "Premium photography equipment",
+        "Gourmet picnic lunch",
+        "Refreshments",
+        "Park entrance fees"
+      ],
+      "capacity": "4-6 guests",
+      "availability": "Daily",
+      "image": "/images/luxury/private-safari.jpg",
+      "amenities": [
+        "Luxury vehicle",
+        "Expert guide",
+        "Photography equipment",
+        "Gourmet dining",
+        "Refreshments",
+        "Comfortable seating"
+      ],
+      "booking": {
+        "advanceBooking": "14 days",
+        "cancellationPolicy": "48 hours",
+        "wildlifeGuarantee": "Best viewing times"
+      }
+    },
+    {
+      "id": "lux-009",
+      "name": "Exclusive Shopping Experience",
+      "location": "Colombo",
+      "category": "Shopping",
+      "price": 200,
+      "currency": "USD",
+      "duration": "4 hours",
+      "rating": 4.6,
+      "reviews": 78,
+      "description": "Personal shopping experience with luxury brands, private showrooms, and personal stylist",
+      "highlights": [
+        "Personal shopping assistant",
+        "Private showroom access",
+        "Luxury brand collections",
+        "Personal styling service",
+        "Exclusive discounts"
+      ],
+      "includes": [
+        "Personal shopping assistant",
+        "Private showroom access",
+        "Personal styling consultation",
+        "Refreshments",
+        "Exclusive discounts",
+        "Delivery service"
+      ],
+      "capacity": "1-4 guests",
+      "availability": "Daily",
+      "image": "/images/luxury/shopping-experience.jpg",
+      "amenities": [
+        "Personal assistant",
+        "Private showrooms",
+        "Styling consultation",
+        "Refreshments",
+        "Exclusive access",
+        "Delivery service"
+      ],
+      "booking": {
+        "advanceBooking": "3 days",
+        "cancellationPolicy": "24 hours",
+        "personalization": "Available"
+      }
+    },
+    {
+      "id": "lux-010",
+      "name": "Sunset Cocktail Cruise",
+      "location": "Negombo",
+      "category": "Marine Experience",
+      "price": 350,
+      "currency": "USD",
+      "duration": "3 hours",
+      "rating": 4.7,
+      "reviews": 134,
+      "description": "Exclusive sunset cruise with premium cocktails, gourmet appetizers, and live entertainment",
+      "highlights": [
+        "Premium cocktail service",
+        "Gourmet appetizers",
+        "Live entertainment",
+        "Sunset photography",
+        "Private deck access"
+      ],
+      "includes": [
+        "Luxury boat charter",
+        "Premium cocktails",
+        "Gourmet appetizers",
+        "Live entertainment",
+        "Photography service",
+        "Personal attendant"
+      ],
+      "capacity": "8-16 guests",
+      "availability": "Evenings",
+      "image": "/images/luxury/sunset-cruise.jpg",
+      "amenities": [
+        "Luxury boat",
+        "Premium bar",
+        "Gourmet kitchen",
+        "Live entertainment",
+        "Private deck",
+        "Photography service"
+      ],
+      "booking": {
+        "advanceBooking": "7 days",
+        "cancellationPolicy": "24 hours",
+        "weatherPolicy": "Full refund for weather cancellation"
+      }
+    }
+  ]
+}

@@ -1,0 +1,359 @@
+{
+  "hospitals": [
+    {
+      "id": "hosp-001",
+      "name": "Colombo National Hospital",
+      "location": "Colombo",
+      "type": "Government",
+      "rating": 4.5,
+      "specialties": [
+        "Orthopedic Surgery",
+        "Cardiology",
+        "Neurology",
+        "General Surgery",
+        "Emergency Medicine"
+      ],
+      "facilities": [
+        "24/7 Emergency Services",
+        "ICU and CCU",
+        "Modern Operating Theaters",
+        "Advanced Imaging",
+        "Laboratory Services",
+        "Pharmacy",
+        "Cafeteria",
+        "Parking"
+      ],
+      "medicalStaff": {
+        "doctors": 250,
+        "nurses": 500,
+        "specialists": 150
+      },
+      "capacity": {
+        "beds": 3000,
+        "privateRooms": 200,
+        "icuBeds": 50
+      },
+      "accreditation": [
+        "Ministry of Health - Sri Lanka",
+        "JCI Accredited",
+        "ISO 9001:2015"
+      ],
+      "contact": {
+        "phone": "+94-11-269-1111",
+        "email": "info@cnh.gov.lk",
+        "website": "www.cnh.gov.lk",
+        "address": "Colombo 07, Sri Lanka"
+      },
+      "pricing": {
+        "consultation": 50,
+        "privateRoom": 150,
+        "surgeryBase": 2000,
+        "currency": "USD"
+      },
+      "languages": ["English", "Sinhala", "Tamil", "Hindi"],
+      "internationalServices": {
+        "visaSupport": true,
+        "airportPickup": true,
+        "accommodationAssistance": true,
+        "translationServices": true
+      },
+      "image": "/images/hospitals/colombo-national.jpg"
+    },
+    {
+      "id": "hosp-002",
+      "name": "Asiri Central Hospital",
+      "location": "Colombo",
+      "type": "Private",
+      "rating": 4.8,
+      "specialties": [
+        "Cardiac Surgery",
+        "Orthopedic Surgery",
+        "Plastic Surgery",
+        "Dental Surgery",
+        "Ophthalmology"
+      ],
+      "facilities": [
+        "Luxury Private Rooms",
+        "VIP Suites",
+        "Advanced Cardiac Center",
+        "Modern Dental Clinic",
+        "Eye Surgery Center",
+        "Spa and Wellness",
+        "Fine Dining Restaurant",
+        "Concierge Services"
+      ],
+      "medicalStaff": {
+        "doctors": 180,
+        "nurses": 320,
+        "specialists": 120
+      },
+      "capacity": {
+        "beds": 500,
+        "privateRooms": 400,
+        "icuBeds": 30
+      },
+      "accreditation": [
+        "JCI Accredited",
+        "ISO 9001:2015",
+        "Ministry of Health Approved"
+      ],
+      "contact": {
+        "phone": "+94-11-452-2000",
+        "email": "info@asiri.lk",
+        "website": "www.asiri.lk",
+        "address": "Colombo 05, Sri Lanka"
+      },
+      "pricing": {
+        "consultation": 100,
+        "privateRoom": 300,
+        "surgeryBase": 5000,
+        "currency": "USD"
+      },
+      "languages": ["English", "Sinhala", "Tamil", "Arabic", "French"],
+      "internationalServices": {
+        "visaSupport": true,
+        "airportPickup": true,
+        "luxuryAccommodation": true,
+        "personalConcierge": true,
+        "medicalTourismPackage": true
+      },
+      "image": "/images/hospitals/asiri-central.jpg"
+    },
+    {
+      "id": "hosp-003",
+      "name": "Nawaloka Hospital",
+      "location": "Colombo",
+      "type": "Private",
+      "rating": 4.6,
+      "specialties": [
+        "Neurosurgery",
+        "Cardiology",
+        "Oncology",
+        "Pediatrics",
+        "Gynecology"
+      ],
+      "facilities": [
+        "Neuroscience Center",
+        "Cancer Treatment Center",
+        "Pediatric ICU",
+        "Maternity Ward",
+        "Diagnostic Center",
+        "Rehabilitation Center",
+        "Cafeteria",
+        "Gift Shop"
+      ],
+      "medicalStaff": {
+        "doctors": 200,
+        "nurses": 400,
+        "specialists": 100
+      },
+      "capacity": {
+        "beds": 800,
+        "privateRooms": 300,
+        "icuBeds": 40
+      },
+      "accreditation": [
+        "JCI Accredited",
+        "ISO 9001:2015",
+        "Ministry of Health Approved"
+      ],
+      "contact": {
+        "phone": "+94-11-254-4444",
+        "email": "info@nawaloka.lk",
+        "website": "www.nawaloka.lk",
+        "address": "Colombo 02, Sri Lanka"
+      },
+      "pricing": {
+        "consultation": 75,
+        "privateRoom": 200,
+        "surgeryBase": 3000,
+        "currency": "USD"
+      },
+      "languages": ["English", "Sinhala", "Tamil", "Hindi"],
+      "internationalServices": {
+        "visaSupport": true,
+        "airportPickup": true,
+        "accommodationAssistance": true,
+        "translationServices": true
+      },
+      "image": "/images/hospitals/nawaloka.jpg"
+    },
+    {
+      "id": "hosp-004",
+      "name": "Lanka Hospitals",
+      "location": "Colombo",
+      "type": "Private",
+      "rating": 4.7,
+      "specialties": [
+        "Orthopedic Surgery",
+        "Spine Surgery",
+        "Sports Medicine",
+        "Rehabilitation",
+        "Pain Management"
+      ],
+      "facilities": [
+        "Advanced Orthopedic Center",
+        "Spine Surgery Unit",
+        "Sports Medicine Clinic",
+        "Physical Therapy Center",
+        "Pain Management Clinic",
+        "Modern Gymnasium",
+        "Swimming Pool",
+        "Restaurant"
+      ],
+      "medicalStaff": {
+        "doctors": 150,
+        "nurses": 250,
+        "specialists": 80
+      },
+      "capacity": {
+        "beds": 400,
+        "privateRooms": 200,
+        "icuBeds": 20
+      },
+      "accreditation": [
+        "JCI Accredited",
+        "ISO 9001:2015",
+        "Ministry of Health Approved"
+      ],
+      "contact": {
+        "phone": "+94-11-543-0000",
+        "email": "info@lankahospitals.lk",
+        "website": "www.lankahospitals.lk",
+        "address": "Colombo 03, Sri Lanka"
+      },
+      "pricing": {
+        "consultation": 80,
+        "privateRoom": 250,
+        "surgeryBase": 4000,
+        "currency": "USD"
+      },
+      "languages": ["English", "Sinhala", "Tamil", "Arabic"],
+      "internationalServices": {
+        "visaSupport": true,
+        "airportPickup": true,
+        "luxuryAccommodation": true,
+        "sportsRehabilitation": true,
+        "medicalTourismPackage": true
+      },
+      "image": "/images/hospitals/lanka-hospitals.jpg"
+    },
+    {
+      "id": "hosp-005",
+      "name": "Kandy General Hospital",
+      "location": "Kandy",
+      "type": "Government",
+      "rating": 4.3,
+      "specialties": [
+        "General Medicine",
+        "Surgery",
+        "Pediatrics",
+        "Emergency Medicine",
+        "Psychiatry"
+      ],
+      "facilities": [
+        "Emergency Department",
+        "Operating Theaters",
+        "Pediatric Ward",
+        "Maternity Unit",
+        "Laboratory",
+        "Pharmacy",
+        "Cafeteria",
+        "Parking"
+      ],
+      "medicalStaff": {
+        "doctors": 120,
+        "nurses": 300,
+        "specialists": 60
+      },
+      "capacity": {
+        "beds": 1000,
+        "privateRooms": 50,
+        "icuBeds": 20
+      },
+      "accreditation": [
+        "Ministry of Health - Sri Lanka",
+        "ISO 9001:2015"
+      ],
+      "contact": {
+        "phone": "+94-81-223-3333",
+        "email": "info@kgh.gov.lk",
+        "website": "www.kgh.gov.lk",
+        "address": "Kandy, Sri Lanka"
+      },
+      "pricing": {
+        "consultation": 30,
+        "privateRoom": 80,
+        "surgeryBase": 1000,
+        "currency": "USD"
+      },
+      "languages": ["English", "Sinhala", "Tamil"],
+      "internationalServices": {
+        "visaSupport": false,
+        "airportPickup": false,
+        "accommodationAssistance": false,
+        "translationServices": true
+      },
+      "image": "/images/hospitals/kandy-general.jpg"
+    },
+    {
+      "id": "hosp-006",
+      "name": "Colombo Dental Hospital",
+      "location": "Colombo",
+      "type": "Specialized",
+      "rating": 4.4,
+      "specialties": [
+        "Oral Surgery",
+        "Orthodontics",
+        "Prosthodontics",
+        "Periodontics",
+        "Endodontics"
+      ],
+      "facilities": [
+        "Advanced Dental Clinics",
+        "Oral Surgery Theater",
+        "Orthodontic Center",
+        "Prosthodontics Lab",
+        "Digital X-ray",
+        "Waiting Lounge",
+        "Cafeteria",
+        "Parking"
+      ],
+      "medicalStaff": {
+        "doctors": 80,
+        "nurses": 120,
+        "specialists": 50
+      },
+      "capacity": {
+        "beds": 50,
+        "privateRooms": 20,
+        "icuBeds": 5
+      },
+      "accreditation": [
+        "Ministry of Health - Sri Lanka",
+        "Sri Lanka Dental Council",
+        "ISO 9001:2015"
+      ],
+      "contact": {
+        "phone": "+94-11-269-5555",
+        "email": "info@cdh.gov.lk",
+        "website": "www.cdh.gov.lk",
+        "address": "Colombo 07, Sri Lanka"
+      },
+      "pricing": {
+        "consultation": 40,
+        "privateRoom": 100,
+        "surgeryBase": 1500,
+        "currency": "USD"
+      },
+      "languages": ["English", "Sinhala", "Tamil", "Hindi"],
+      "internationalServices": {
+        "visaSupport": true,
+        "airportPickup": true,
+        "accommodationAssistance": true,
+        "translationServices": true
+      },
+      "image": "/images/hospitals/colombo-dental.jpg"
+    }
+  ]
+}
