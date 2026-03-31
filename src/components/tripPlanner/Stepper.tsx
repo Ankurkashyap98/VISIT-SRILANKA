@@ -37,12 +37,12 @@ export default function Stepper({ currentStep, totalSteps, steps }: StepperProps
               
               {/* Step Content */}
               <div className="ml-3">
-                <p className={`text-sm font-medium ${
+                <p className={`text-sm text-white font-medium ${
                   currentStep >= step.id ? 'text-primary' : 'text-gray-500'
                 }`}>
                   {step.title}
                 </p>
-                <p className="text-xs text-gray-500">{step.description}</p>
+                <p className="text-xs text-white">{step.description}</p>
               </div>
             </div>
             
@@ -64,7 +64,7 @@ export default function Stepper({ currentStep, totalSteps, steps }: StepperProps
             style={{ width: `${(currentStep / totalSteps) * 100}%` }}
           />
         </div>
-        <p className="text-xs text-gray-500 mt-2 text-center">
+        <p className="text-xs text-white mt-2 text-center">
           Step {currentStep} of {totalSteps}
         </p>
       </div>

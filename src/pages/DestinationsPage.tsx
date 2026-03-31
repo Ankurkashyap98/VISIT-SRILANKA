@@ -399,16 +399,16 @@ export default function DestinationsPage() {
         }}
       />
 
-      <div className="min-h-screen bg-neutral-light-50">
+      <div className="min-h-screen bg-gray-50">
         <Navbar />
         
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <div className="px-4 max-w-7xl mx-auto sm:px-6 lg:px-8 py-8">
           {/* Header */}
           <div className="mb-8">
-            <h1 className="text-3xl font-heading font-bold text-neutral-dark-200 mb-4">
+            <h1 className="text-3xl font-heading font-bold text-black">
               Discover Sri Lanka&apos;s Destinations
             </h1>
-            <p className="text-lg text-neutral-dark-100 mb-6">
+            <p className="text-lg text-black mb-6">
               Explore the Pearl of the Indian Ocean with our curated selection of destinations
             </p>
             
@@ -468,7 +468,7 @@ export default function DestinationsPage() {
 
           {/* Results Count */}
           <div className="mb-6">
-            <p className="text-neutral-dark-100">
+            <p className="text-black">
               Showing {displayedDestinations.length} of {destinations.length} destinations
             </p>
           </div>
@@ -485,7 +485,7 @@ export default function DestinationsPage() {
             </div>
             
             <div className="flex items-center space-x-4">
-              <Button variant="outline">
+              <Button variant="primary">
                 <MapPin className="h-4 w-4 mr-2" />
                 Show Map
               </Button>

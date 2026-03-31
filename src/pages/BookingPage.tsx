@@ -227,12 +227,12 @@ export default function BookingPage() {
 
   if (!destination) {
     return (
-      <div className="min-h-screen bg-neutral-light-50">
+      <div className="min-h-screen bg-gray-50">
         <Navbar />
         <div className="max-w-6xl mx-auto px-4 py-16">
           <div className="text-center mb-12">
-            <h1 className="text-3xl font-bold text-neutral-dark-200 mb-4">Choose Your Destination</h1>
-            <p className="text-lg text-neutral-dark-100 mb-8">Select a destination to start your booking process.</p>
+            <h1 className="text-3xl font-bold text-black mb-4">Choose Your Destination</h1>
+            <p className="text-lg text-black mb-8">Select a destination to start your booking process.</p>
           </div>
           
           {/* Popular Destinations Grid */}
@@ -279,7 +279,7 @@ export default function BookingPage() {
           </div>
           
           <div className="text-center">
-            <Button variant="outline" onClick={() => navigate('/destinations')}>
+            <Button variant="primary" onClick={() => navigate('/destinations')}>
               View All Destinations
             </Button>
           </div>
@@ -290,7 +290,7 @@ export default function BookingPage() {
   }
 
   return (
-    <div className="min-h-screen bg-neutral-light-50">
+    <div className="min-h-screen bg-white">
       <Navbar />
       
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
@@ -335,14 +335,14 @@ export default function BookingPage() {
                 <h2 className="text-xl font-semibold mb-6">Booking Details</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
                   <div>
-                    <label className="block text-sm font-medium text-neutral-dark-200 mb-2">
+                    <label className="block text-sm font-medium text-black mb-2">
                       First Name *
                     </label>
                     <input
                       type="text"
                       value={form.firstName}
                       onChange={(e) => handleInputChange('firstName', e.target.value)}
-                      className="w-full px-3 py-2 bg-white text-black border border-neutral-light-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent focus:shadow-md transition-all duration-200 placeholder:text-gray-400"
+                      className="w-full px-3 py-2 bg-white text-black border border-neutral-light-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent focus:shadow-md transition-all duration-200 "
                       required
                     />
                   </div>
@@ -578,7 +578,7 @@ export default function BookingPage() {
                 </div>
 
                 <div className="flex justify-center space-x-4">
-                  <Button variant="outline" onClick={() => navigate('/destinations')}>
+                  <Button  onClick={() => navigate('/destinations')}>
                     Browse More
                   </Button>
                   <Button onClick={() => navigate('/dashboard/tourist')}>

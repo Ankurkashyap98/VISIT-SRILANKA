@@ -24,6 +24,8 @@ export interface Preferences {
   travelers: number;
   startDate: string;
   endDate: string;
+  origin: string;
+  destination: string;
   specialRequirements: string;
   medicalInfo: MedicalInfo;
 }

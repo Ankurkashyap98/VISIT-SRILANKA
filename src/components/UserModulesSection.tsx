@@ -201,15 +201,15 @@ const UserModulesSection = () => {
           <Card key={module.id} className={`sri-lanka-module-card p-8 hover:shadow-medium transition-all duration-300 group border-l-4 ${module.borderColor}`}>
             <div className="sri-lanka-module-card-content">
               {/* Module Header */}
-              <div className="sri-lanka-module-header flex items-center space-x-4 mb-6">
-                <div className={`sri-lanka-module-icon ${module.bgColor} p-4 rounded-xl group-hover:scale-110 transition-transform duration-300`}>
-                  <module.icon className={`h-8 w-8 ${module.color}`} />
+              <div className="sri-lanka-module-header flex flex-col sm:flex-row items-start sm:items-center space-y-3 sm:space-y-0 sm:space-x-4 mb-4 sm:mb-6">
+                <div className={`sri-lanka-module-icon ${module.bgColor} p-3 sm:p-4 rounded-xl group-hover:scale-110 transition-transform duration-300 flex-shrink-0`}>
+                  <module.icon className={`h-6 w-6 sm:h-8 sm:w-8 ${module.color}`} />
                 </div>
-                <div className="sri-lanka-module-info">
-                  <h3 className="sri-lanka-module-name text-2xl font-heading font-bold text-neutral-dark-200 mb-2 group-hover:text-primary transition-colors">
+                <div className="sri-lanka-module-info flex-1">
+                  <h3 className="sri-lanka-module-name text-xl sm:text-2xl font-heading font-bold text-neutral-dark-200 mb-2 group-hover:text-primary transition-colors">
                     {module.name}
                   </h3>
-                  <p className="sri-lanka-module-description text-neutral-dark-100">
+                  <p className="sri-lanka-module-description text-sm sm:text-base text-neutral-dark-100">
                     {module.description}
                   </p>
                 </div>
@@ -241,13 +241,13 @@ const UserModulesSection = () => {
       </Grid>
 
       {/* Platform Benefits */}
-      <div className="sri-lanka-platform-benefits mt-16">
-        <div className="sri-lanka-platform-benefits-content bg-gradient-to-r from-primary-50 to-secondary-50 rounded-2xl p-8">
-          <div className="sri-lanka-platform-benefits-header text-center mb-8">
-            <h3 className="sri-lanka-platform-benefits-title text-2xl font-heading font-bold text-neutral-dark-200 mb-4">
+      <div className="sri-lanka-platform-benefits mt-8 sm:mt-12 md:mt-16">
+        <div className="sri-lanka-platform-benefits-content bg-gradient-to-r from-primary-50 to-secondary-50 rounded-xl sm:rounded-2xl p-4 sm:p-6 md:p-8">
+          <div className="sri-lanka-platform-benefits-header text-center mb-6 sm:mb-8">
+            <h3 className="sri-lanka-platform-benefits-title text-xl sm:text-2xl font-heading font-bold text-neutral-dark-200 mb-3 sm:mb-4">
               Integrated Ecosystem Benefits
             </h3>
-            <p className="sri-lanka-platform-benefits-description text-neutral-dark-100 max-w-3xl mx-auto">
+            <p className="sri-lanka-platform-benefits-description text-sm sm:text-base text-neutral-dark-100 max-w-3xl mx-auto px-2 sm:px-0">
               All modules work together seamlessly to create a comprehensive tourism ecosystem that benefits everyone involved.
             </p>
           </div>

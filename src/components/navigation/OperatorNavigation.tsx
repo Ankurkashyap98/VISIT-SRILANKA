@@ -65,8 +65,8 @@ const OperatorNavigation = ({ className, isMobile = false }: OperatorNavigationP
   }
 
   return (
-    <nav className={cn("nav-container hidden md:flex items-center space-x-2", className)} aria-label="Operator navigation">
-      <ul className="flex items-center space-x-2" role="menubar">
+    <nav className={cn("nav-container hidden min-[1025px]:flex items-center space-x-2", className)} aria-label="Operator navigation">
+      <ul className="flex items-center space-x-2 flex-wrap" role="menubar">
         {navigation.map((item) => {
           const isActive = location.pathname === item.href
           return (

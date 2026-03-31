@@ -46,34 +46,34 @@ const Hero = ({ className }: HeroProps) => {
   ]
 
   return (
-    <section className={cn('sri-lanka-hero relative min-h-screen flex items-center justify-center overflow-hidden py-12', className)}>
+    <section className={cn('sri-lanka-hero relative min-h-[80vh] sm:min-h-screen flex items-center justify-center overflow-hidden py-8 sm:py-12', className)}>
       {/* Background Gradient */}
       <div className="sri-lanka-hero-background absolute inset-0 z-0">
         <div className="sri-lanka-hero-gradient w-full h-full bg-gradient-to-br from-primary-900 via-primary-700 to-secondary-600">
-          <div className="sri-lanka-hero-overlay absolute inset-0 bg-black/20"></div>
+          <div className="sri-lanka-hero-overlay absolute inset-0 bg-gray-50"></div>
         </div>
       </div>
 
       {/* Content */}
-      <div className="sri-lanka-hero-content relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="sri-lanka-hero-container grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+      <div className="sri-lanka-hero-content relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
+        <div className="sri-lanka-hero-container grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-12 items-center">
           
           {/* Left Column - Title, Description, Tags */}
           <div className="sri-lanka-hero-left text-center lg:text-left">
             {/* Main Heading */}
-            <h1 className="sri-lanka-hero-title font-heading font-bold text-white mb-6 animate-fade-in" style={{ fontSize: '3.18rem' }}>
+            <h1 className="sri-lanka-hero-title font-heading font-bold text-black mb-4 sm:mb-6 animate-fade-in text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
               Discover the Pearl of the Indian Ocean
             </h1>
             
-            <p className="sri-lanka-hero-subtitle text-xl md:text-2xl text-white/90 mb-8 animate-slide-up">
+            <p className="sri-lanka-hero-subtitle text-base sm:text-lg md:text-xl lg:text-2xl text-black mb-6 sm:mb-8 animate-slide-up px-2 sm:px-0">
               Experience Sri Lanka&apos;s rich culture, stunning landscapes, and warm hospitality
               with government-verified services and transparent pricing.
             </p>
 
             {/* Popular Destinations */}
             <div className="sri-lanka-hero-popular animate-slide-up">
-              <p className="sri-lanka-hero-popular-label text-white/80 mb-4">Popular destinations:</p>
-              <div className="sri-lanka-hero-popular-cards grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+              <p className="sri-lanka-hero-popular-label text-black mb-3 sm:mb-4 text-sm sm:text-base">Popular destinations:</p>
+              <div className="sri-lanka-hero-popular-cards grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 sm:gap-3">
                 {destinations.slice(0, 6).map((destination) => (
                   <button
                     key={destination.id}
@@ -81,7 +81,7 @@ const Hero = ({ className }: HeroProps) => {
                       setSearchQuery(destination.name)
                       setSelectedDestination(destination)
                     }}
-                    className="sri-lanka-hero-popular-card bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg p-3 hover:bg-white/20 transition-all duration-300 text-left group"
+                    className="sri-lanka-hero-popular-card  bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg p-3 hover:bg-white/20 transition-all duration-300 text-left group"
                   >
                     <div className="sri-lanka-hero-popular-card-content">
                       <div className="sri-lanka-hero-popular-card-image mb-2">
@@ -97,18 +97,18 @@ const Hero = ({ className }: HeroProps) => {
                         />
                       </div>
                       <div className="sri-lanka-hero-popular-card-info">
-                        <h4 className="sri-lanka-hero-popular-card-name text-sm font-medium text-white group-hover:text-accent transition-colors truncate">
+                        <h4 className="sri-lanka-hero-popular-card-name text-sm font-medium text-black group-hover:text-accent transition-colors truncate">
                           {destination.name}
                         </h4>
-                        <p className="sri-lanka-hero-popular-card-location text-xs text-white/70 flex items-center mt-1">
+                        <p className="sri-lanka-hero-popular-card-location text-xs text-black flex items-center mt-1">
                           <MapPin className="h-3 w-3 mr-1" />
                           <span className="truncate">{destination.location}</span>
                         </p>
-                        <div className="sri-lanka-hero-popular-card-rating text-xs text-white/70 flex items-center mt-1">
+                        <div className="sri-lanka-hero-popular-card-rating text-xs text-black flex items-center mt-1">
                           <Star className="h-3 w-3 mr-1 text-accent fill-current" />
                           <span>{destination.rating}</span>
                           <span className="mx-1">•</span>
-                          <span className="bg-white/20 text-white px-2 py-0.5 rounded-full text-xs">
+                          <span className="bg-white/20 text-black px-2 py-0.5 rounded-full text-xs">
                             {destination.category}
                           </span>
                         </div>
@@ -121,13 +121,13 @@ const Hero = ({ className }: HeroProps) => {
           </div>
 
           {/* Right Column - Search Form */}
-          <div className="sri-lanka-hero-right">
-            <div className="sri-lanka-hero-search bg-white/95 backdrop-blur-sm rounded-2xl p-6 md:p-8 shadow-strong animate-slide-up">
-              <h2 className="sri-lanka-hero-search-title text-2xl font-heading font-semibold text-neutral-dark-200 mb-6">
+          <div className="sri-lanka-hero-right mt-6 lg:mt-0">
+            <div className="sri-lanka-hero-search bg-white/95 backdrop-blur-sm rounded-xl sm:rounded-2xl p-4 sm:p-6 md:p-8 shadow-strong animate-slide-up">
+              <h2 className="sri-lanka-hero-search-title text-xl sm:text-2xl font-heading font-semibold text-neutral-dark-200 mb-4 sm:mb-6">
                 Where do you want to go?
               </h2>
               
-              <div className="sri-lanka-hero-search-form space-y-6 mb-6">
+              <div className="sri-lanka-hero-search-form space-y-4 sm:space-y-6 mb-4 sm:mb-6">
                 {/* Destination Search */}
                 <div className="sri-lanka-hero-field-group">
                   <label htmlFor="destination-search" className="sri-lanka-hero-field-label block text-sm font-medium text-neutral-dark-200 mb-2">
@@ -147,7 +147,7 @@ const Hero = ({ className }: HeroProps) => {
                   <label className="sri-lanka-hero-field-label block text-sm font-medium text-neutral-dark-200 mb-2">
                     Travel Dates
                   </label>
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
                     {/* Start Date */}
                     <div className="relative">
                       <Calendar className="absolute left-3 top-1/2 transform -translate-y-1/2 h-5 w-5 text-neutral-dark-100" />
@@ -188,10 +188,10 @@ const Hero = ({ className }: HeroProps) => {
               </div>
 
               {/* Search Button */}
-              <Button variant="primary" size="lg" className="sri-lanka-hero-search-button w-full">
-                <Search className="h-5 w-5 mr-2" />
+              <Button variant="primary" size="lg" className="sri-lanka-hero-search-button w-full text-sm sm:text-base">
+                <Search className="h-4 w-4 sm:h-5 sm:w-5 mr-2" />
                 Build My Journey
-                <ArrowRight className="h-5 w-5 ml-2" />
+                <ArrowRight className="h-4 w-4 sm:h-5 sm:w-5 ml-2" />
               </Button>
             </div>
           </div>

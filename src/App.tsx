@@ -18,6 +18,10 @@ import TripPlannerPage from './pages/TripPlannerPage'
 import TripPlannerPreferencesPage from './pages/TripPlannerPreferencesPage'
 import TripPlannerItineraryPage from './pages/TripPlannerItineraryPage'
 import TripPlannerTransportPage from './pages/TripPlannerTransportPage'
+import TripPlannerHotelsPage from './pages/TripPlannerHotelsPage'
+import TripPlannerToursPage from './pages/TripPlannerToursPage'
+import TripPlannerSummaryPage from './pages/TripPlannerSummaryPage'
+import TripPlannerConfirmationPage from './pages/TripPlannerConfirmationPage'
 import VisaPage from './pages/VisaPage'
 import BookingPage from './pages/BookingPage'
 import DashboardPage from './pages/DashboardPage'
@@ -66,6 +70,10 @@ function App() {
                     <Route path="/trip-planner/preferences" element={<TripPlannerPreferencesPage />} />
                     <Route path="/trip-planner/itinerary" element={<TripPlannerItineraryPage />} />
                     <Route path="/trip-planner/transport" element={<TripPlannerTransportPage />} />
+                    <Route path="/trip-planner/hotels" element={<TripPlannerHotelsPage />} />
+                    <Route path="/trip-planner/tours" element={<TripPlannerToursPage />} />
+                    <Route path="/trip-planner/summary" element={<TripPlannerSummaryPage />} />
+                    <Route path="/trip-planner/confirmation" element={<TripPlannerConfirmationPage />} />
                     <Route path="/visa" element={<VisaPage />} />
                     <Route path="/booking" element={<BookingPage />} />
                     <Route path="/dashboard/:userType" element={<DashboardPage />} />

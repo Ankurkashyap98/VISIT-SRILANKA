@@ -149,16 +149,16 @@ export default function ExperiencesPage() {
         }}
       />
 
-    <div className="min-h-screen bg-neutral-light-50">
+    <div className="min-h-screen bg-gray-50">
       <Navbar />
       
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           {/* Header */}
           <div className="mb-8">
-            <h1 className="text-3xl font-heading font-bold text-neutral-dark-200 mb-4">
+            <h1 className="text-3xl font-heading font-bold text-black mb-4">
               Unique Sri Lankan Experiences
             </h1>
-            <p className="text-lg text-neutral-dark-100">
+            <p className="text-lg text-black">
               Immerse yourself in authentic Sri Lankan culture, nature, and traditions
             </p>
           </div>
@@ -199,7 +199,7 @@ export default function ExperiencesPage() {
 
           {/* Results Count */}
           <div className="mb-6">
-            <p className="text-neutral-dark-100">
+            <p className="text-black">
               Showing {experiences.length} experiences
             </p>
           </div>

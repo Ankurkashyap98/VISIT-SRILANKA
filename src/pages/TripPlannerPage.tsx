@@ -14,19 +14,19 @@ export default function TripPlannerPage() {
   }
 
   return (
-    <div className="min-h-screen bg-neutral-light-50">
+    <div className="min-h-screen bg-gray-50">
       <Navbar />
       
       <div className="max-w-6xl mx-auto px-4 py-16">
         {/* Hero Section */}
         <div className="text-center mb-16">
           <div className="inline-flex items-center justify-center w-20 h-20 bg-primary/10 rounded-full mb-6">
-            <Bot className="h-10 w-10 text-primary" />
+            <Bot className="h-10 w-10 text-black" />
           </div>
-          <h1 className="text-4xl font-bold text-neutral-dark-200 mb-6">
+          <h1 className="text-4xl font-bold text-black mb-6">
             AI-Powered Trip Planner
           </h1>
-          <p className="text-xl text-neutral-dark-100 mb-8 max-w-3xl mx-auto">
+          <p className="text-xl text-black mb-8 max-w-3xl mx-auto">
             Create your perfect Sri Lankan adventure with our intelligent trip planner. 
             Get personalized itineraries, book everything in one place, and travel with confidence.
           </p>
@@ -42,7 +42,7 @@ export default function TripPlannerPage() {
 
         {/* How It Works */}
         <div className="mb-16">
-          <h2 className="text-3xl font-bold text-neutral-dark-200 text-center mb-12">
+          <h2 className="text-3xl font-bold text-black text-center mb-12">
             How It Works
           </h2>
           
@@ -54,7 +54,7 @@ export default function TripPlannerPage() {
               <h3 className="text-xl font-semibold text-neutral-dark-200 mb-3">
                 Tell Us Your Preferences
               </h3>
-              <p className="text-neutral-dark-100">
+              <p className="text-neutral-dark-200">
                 Share your travel dates, interests, budget, and special requirements. 
                 Our AI learns what you love.
               </p>
@@ -67,7 +67,7 @@ export default function TripPlannerPage() {
               <h3 className="text-xl font-semibold text-neutral-dark-200 mb-3">
                 Get AI-Generated Itinerary
               </h3>
-              <p className="text-neutral-dark-100">
+              <p className="text-neutral-dark-200">
                 Our AI creates a personalized itinerary with the best attractions, 
                 activities, and experiences for you.
               </p>
@@ -80,7 +80,7 @@ export default function TripPlannerPage() {
               <h3 className="text-xl font-semibold text-neutral-dark-200 mb-3">
                 Book Everything
               </h3>
-              <p className="text-neutral-dark-100">
+              <p className="text-neutral-dark-200">
                 Select transport, hotels, and tours. Review and book your complete 
                 trip package in one place.
               </p>
@@ -90,7 +90,7 @@ export default function TripPlannerPage() {
 
         {/* Features */}
         <div className="mb-16">
-          <h2 className="text-3xl font-bold text-neutral-dark-200 text-center mb-12">
+          <h2 className="text-3xl font-bold text-black text-center mb-12">
             Why Choose Our Trip Planner?
           </h2>
           
@@ -98,7 +98,7 @@ export default function TripPlannerPage() {
             <Card className="p-6 text-center">
               <Bot className="h-8 w-8 text-primary mx-auto mb-3" />
               <h3 className="font-semibold text-neutral-dark-200 mb-2">AI-Powered</h3>
-              <p className="text-sm text-neutral-dark-100">
+              <p className="text-sm text-neutral-dark-200">
                 Advanced AI creates personalized itineraries based on your preferences.
               </p>
             </Card>
@@ -106,7 +106,7 @@ export default function TripPlannerPage() {
             <Card className="p-6 text-center">
               <Shield className="h-8 w-8 text-primary mx-auto mb-3" />
               <h3 className="font-semibold text-neutral-dark-200 mb-2">Government Verified</h3>
-              <p className="text-sm text-neutral-dark-100">
+              <p className="text-sm text-neutral-dark-200">
                 All services are government-approved and quality-assured for your safety.
               </p>
             </Card>
@@ -114,7 +114,7 @@ export default function TripPlannerPage() {
             <Card className="p-6 text-center">
               <CheckCircle className="h-8 w-8 text-primary mx-auto mb-3" />
               <h3 className="font-semibold text-neutral-dark-200 mb-2">All-in-One</h3>
-              <p className="text-sm text-neutral-dark-100">
+              <p className="text-sm text-neutral-dark-200">
                 Book transport, hotels, tours, and experiences in one seamless flow.
               </p>
             </Card>
@@ -122,7 +122,7 @@ export default function TripPlannerPage() {
             <Card className="p-6 text-center">
               <Zap className="h-8 w-8 text-primary mx-auto mb-3" />
               <h3 className="font-semibold text-neutral-dark-200 mb-2">Instant Booking</h3>
-              <p className="text-sm text-neutral-dark-100">
+              <p className="text-sm text-neutral-dark-200">
                 Get instant confirmations and e-tickets for all your bookings.
               </p>
             </Card>
@@ -132,10 +132,10 @@ export default function TripPlannerPage() {
         {/* CTA Section */}
         <Card className="p-8 text-center bg-gradient-to-r from-primary/10 to-secondary/10">
           <Sparkles className="h-12 w-12 text-primary mx-auto mb-4" />
-          <h2 className="text-2xl font-bold text-neutral-dark-200 mb-4">
+          <h2 className="text-2xl font-bold text-black mb-4">
             Ready to Discover Sri Lanka?
           </h2>
-          <p className="text-neutral-dark-100 mb-6 max-w-2xl mx-auto">
+          <p className="text-black mb-6 max-w-2xl mx-auto">
             Join thousands of travelers who have discovered the magic of Sri Lanka 
             with our intelligent trip planning system.
           </p>

@@ -50,8 +50,8 @@ const HostNavigation = ({ className, isMobile = false }: HostNavigationProps) =>
   }
 
   return (
-    <nav className={cn("nav-container hidden md:flex items-center space-x-2", className)} aria-label="Host navigation">
-      <ul className="flex items-center space-x-2" role="menubar">
+    <nav className={cn("nav-container hidden min-[1025px]:flex items-center space-x-2", className)} aria-label="Host navigation">
+      <ul className="flex items-center space-x-2 flex-wrap" role="menubar">
         {navigation.map((item) => {
           const isActive = location.pathname === item.href
           return (

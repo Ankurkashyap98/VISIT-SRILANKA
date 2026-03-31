@@ -482,7 +482,7 @@ export default function SupportPage() {
                       <Phone className="h-4 w-4 mr-2" />
                       Emergency: +94 11 242 6900
                     </Button>
-                    <Button variant="outline" className="border-red-300 text-red-700 hover:bg-red-50">
+                    <Button className="bg-red-600 hover:bg-red-700">
                       <Shield className="h-4 w-4 mr-2" />
                       Safety Guidelines
                     </Button>

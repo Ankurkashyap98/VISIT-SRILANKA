@@ -140,16 +140,16 @@ export default function AboutPage() {
         }}
       />
 
-      <div className="min-h-screen bg-neutral-light-50">
+      <div className="min-h-screen bg-gray-50 ">
         <Navbar />
         
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           {/* Hero Section */}
           <div className="text-center mb-12">
-            <h1 className="text-4xl font-heading font-bold text-neutral-dark-200 mb-6">
+            <h1 className="text-4xl font-heading font-bold text-black mb-6">
               About Sri Lanka Tourism Development Authority
             </h1>
-            <p className="text-xl text-neutral-dark-100 max-w-3xl mx-auto">
+            <p className="text-xl text-black max-w-3xl mx-auto">
               We are the official tourism authority of Sri Lanka, dedicated to promoting sustainable and responsible tourism while preserving our rich cultural heritage and natural beauty.
             </p>
           </div>
@@ -244,11 +244,12 @@ export default function AboutPage() {
                 <Card key={index} className="p-6 text-center hover:shadow-lg transition-shadow">
                   <div className="w-24 h-24 bg-neutral-light-200 rounded-full mx-auto mb-4 overflow-hidden relative">
                     <img 
-                      src={member.image} 
+                      src={getImageUrl(member.image)} 
                       alt={member.name}
                       className="w-full h-full object-cover"
                       onError={(e) => {
-                        const target = e.target as HTMLImageElement
+                        const target = e.currentTarget
+                        target.onerror = null
                         target.src = getImageUrl('/images/placeholder-img1.jpg')
                       }}
                     />
@@ -282,7 +283,7 @@ export default function AboutPage() {
                   <HandHeart className="h-5 w-5 mr-2" />
                   Partner With Us
                 </Button>
-                <Button variant="outline" size="lg">
+                <Button variant="primary" size="lg">
                   <Lightbulb className="h-5 w-5 mr-2" />
                   Share Your Ideas
                 </Button>

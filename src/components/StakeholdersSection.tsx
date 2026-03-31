@@ -82,15 +82,15 @@ const StakeholdersSection = () => {
           <Card key={stakeholder.id} className="sri-lanka-stakeholder-card p-6 hover:shadow-medium transition-all duration-300 group">
             <div className="sri-lanka-stakeholder-card-content">
               {/* Icon and Header */}
-              <div className="sri-lanka-stakeholder-header flex items-start space-x-4 mb-4">
-                <div className={`sri-lanka-stakeholder-icon ${stakeholder.bgColor} p-3 rounded-lg group-hover:scale-110 transition-transform duration-300`}>
-                  <stakeholder.icon className={`h-6 w-6 ${stakeholder.color}`} />
+              <div className="sri-lanka-stakeholder-header flex items-start space-x-3 sm:space-x-4 mb-3 sm:mb-4">
+                <div className={`sri-lanka-stakeholder-icon ${stakeholder.bgColor} p-2 sm:p-3 rounded-lg group-hover:scale-110 transition-transform duration-300 flex-shrink-0`}>
+                  <stakeholder.icon className={`h-5 w-5 sm:h-6 sm:w-6 ${stakeholder.color}`} />
                 </div>
-                <div className="sri-lanka-stakeholder-info flex-1">
-                  <h3 className="sri-lanka-stakeholder-name text-lg font-heading font-semibold text-neutral-dark-200 mb-1 group-hover:text-primary transition-colors">
+                <div className="sri-lanka-stakeholder-info flex-1 min-w-0">
+                  <h3 className="sri-lanka-stakeholder-name text-base sm:text-lg font-heading font-semibold text-neutral-dark-200 mb-1 group-hover:text-primary transition-colors">
                     {stakeholder.name}
                   </h3>
-                  <p className="sri-lanka-stakeholder-role text-sm text-primary font-medium mb-2">
+                  <p className="sri-lanka-stakeholder-role text-xs sm:text-sm text-primary font-medium mb-2">
                     {stakeholder.role}
                   </p>
                 </div>
@@ -122,18 +122,18 @@ const StakeholdersSection = () => {
       </Grid>
 
       {/* Trust Indicators */}
-      <div className="sri-lanka-trust-indicators mt-12 text-center">
-        <div className="sri-lanka-trust-badge bg-white rounded-2xl p-6 shadow-soft border border-primary-100">
+      <div className="sri-lanka-trust-indicators mt-8 sm:mt-12 text-center">
+        <div className="sri-lanka-trust-badge bg-white rounded-xl sm:rounded-2xl p-4 sm:p-6 shadow-soft border border-primary-100">
           <div className="sri-lanka-trust-badge-content">
-            <Shield className="h-12 w-12 text-primary mx-auto mb-4" />
-            <h3 className="sri-lanka-trust-badge-title text-xl font-heading font-semibold text-neutral-dark-200 mb-2">
+            <Shield className="h-10 w-10 sm:h-12 sm:w-12 text-primary mx-auto mb-3 sm:mb-4" />
+            <h3 className="sri-lanka-trust-badge-title text-lg sm:text-xl font-heading font-semibold text-neutral-dark-200 mb-2">
               Government-Backed Platform
             </h3>
-            <p className="sri-lanka-trust-badge-description text-neutral-dark-100 max-w-2xl mx-auto">
+            <p className="sri-lanka-trust-badge-description text-sm sm:text-base text-neutral-dark-100 max-w-2xl mx-auto px-2 sm:px-0">
               Every service, accommodation, and experience on our platform is verified and monitored by official government departments, 
               ensuring your safety, security, and satisfaction throughout your Sri Lankan journey.
             </p>
-            <div className="sri-lanka-trust-badge-features flex flex-wrap justify-center gap-4 mt-4">
+            <div className="sri-lanka-trust-badge-features flex flex-wrap justify-center gap-3 sm:gap-4 mt-4">
               <div className="sri-lanka-trust-feature flex items-center text-sm text-neutral-dark-100">
                 <CheckCircle className="h-4 w-4 text-status-success mr-2" />
                 <span>100% Verified Services</span>

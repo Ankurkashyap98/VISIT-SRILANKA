@@ -214,7 +214,7 @@ export default function DashboardPage() {
   }
 
   return (
-    <div className="min-h-screen bg-neutral-light-50">
+    <div className="min-h-screen bg-gray-50">
       <Navbar />
 
       <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
@@ -222,22 +222,22 @@ export default function DashboardPage() {
         <div className="dashboard-header mb-8">
           <div className="flex items-center justify-between">
             <div>
-              <h2 className="font-heading mb-0 font-semibold text-neutral-dark-200">
+              <h2 className="font-heading mb-0 font-semibold text-black">
                 {config.title}
               </h2>
-              <p className="mt-2 mb-0 text-neutral-dark-100">{config.description}</p>
+              <p className="mt-2 mb-0 text-black">{config.description}</p>
             </div>
             <div className="flex items-center space-x-4">
-              <Button variant="outline" size="sm">
+              <Button size="sm">
                 <Bell className="mr-2 h-4 w-4" />
                 Notifications
               </Button>
-              <Button variant="outline" size="sm">
+              <Button  size="sm">
                 <Settings className="mr-2 h-4 w-4" />
                 Settings
               </Button>
               <Button
-                variant="outline"
+                
                 size="sm"
                 onClick={() => {
                   signOut()
@@ -321,10 +321,10 @@ export default function DashboardPage() {
                   key={tab}
                   type="button"
                   onClick={() => setActiveTab(tab.toLowerCase() as DashboardTab)}
-                  className={`py-2 px-1 text-sm font-medium border-b-2 ${
+                  className={`py-2 px-1 text-sm text-black font-medium border-b-2 ${
                     activeTab === (tab.toLowerCase() as DashboardTab)
                       ? 'border-primary text-primary'
-                      : 'border-transparent text-neutral-dark-100 hover:border-neutral-light-300 hover:text-neutral-dark-200'
+                      : 'border-transparent text-neutral-dark-100 '
                   }`}
                 >
                   {tab}
@@ -1449,7 +1449,7 @@ export default function DashboardPage() {
                 <Button variant="primary" size="sm" className="w-full">
                   Contact Support
                 </Button>
-                <Button variant="outline" size="sm" className="w-full">
+                <Button variant="primary" size="sm" className="w-full">
                   Emergency: +94 11 2 426 426
                 </Button>
               </div>

@@ -25,10 +25,10 @@ const Section = ({
   }
 
   const paddingClasses = {
-    sm: 'py-8',
-    md: 'py-12',
-    lg: 'py-16',
-    xl: 'py-20'
+    sm: 'py-6 sm:py-8',
+    md: 'py-8 sm:py-12',
+    lg: 'py-12 sm:py-16',
+    xl: 'py-16 sm:py-20'
   }
 
   return (
@@ -41,7 +41,7 @@ const Section = ({
         className
       )}
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
         {children}
       </div>
     </section>
@@ -74,11 +74,11 @@ const SectionHeader = ({
           {subtitle}
         </p>
       )}
-      <h2 className="text-3xl md:text-4xl font-heading font-bold text-neutral-dark-200 mb-4">
+      <h2 className="text-2xl sm:text-3xl md:text-4xl font-heading font-bold text-neutral-dark-200 mb-3 sm:mb-4">
         {title}
       </h2>
       {description && (
-        <p className="text-lg text-neutral-dark-100 max-w-3xl mx-auto">
+        <p className="text-base sm:text-lg text-neutral-dark-100 max-w-3xl mx-auto px-2 sm:px-0">
           {description}
         </p>
       )}

@@ -210,15 +210,15 @@ const AIFeaturesSection = () => {
           <Card key={feature.id} className={`sri-lanka-ai-feature-card p-6 hover:shadow-medium transition-all duration-300 group border-l-4 ${feature.borderColor}`}>
             <div className="sri-lanka-ai-feature-card-content">
               {/* Feature Header */}
-              <div className="sri-lanka-ai-feature-header flex items-start space-x-4 mb-4">
-                <div className={`sri-lanka-ai-feature-icon ${feature.bgColor} p-3 rounded-lg group-hover:scale-110 transition-transform duration-300`}>
-                  <feature.icon className={`h-6 w-6 ${feature.color}`} />
+              <div className="sri-lanka-ai-feature-header flex items-start space-x-3 sm:space-x-4 mb-3 sm:mb-4">
+                <div className={`sri-lanka-ai-feature-icon ${feature.bgColor} p-2 sm:p-3 rounded-lg group-hover:scale-110 transition-transform duration-300 flex-shrink-0`}>
+                  <feature.icon className={`h-5 w-5 sm:h-6 sm:w-6 ${feature.color}`} />
                 </div>
-                <div className="sri-lanka-ai-feature-info flex-1">
-                  <h3 className="sri-lanka-ai-feature-name text-lg font-heading font-semibold text-neutral-dark-200 mb-2 group-hover:text-primary transition-colors">
+                <div className="sri-lanka-ai-feature-info flex-1 min-w-0">
+                  <h3 className="sri-lanka-ai-feature-name text-base sm:text-lg font-heading font-semibold text-neutral-dark-200 mb-2 group-hover:text-primary transition-colors">
                     {feature.name}
                   </h3>
-                  <p className="sri-lanka-ai-feature-description text-sm text-neutral-dark-100">
+                  <p className="sri-lanka-ai-feature-description text-xs sm:text-sm text-neutral-dark-100">
                     {feature.description}
                   </p>
                 </div>
@@ -286,13 +286,13 @@ const AIFeaturesSection = () => {
       </div>
 
       {/* AI & Security Benefits */}
-      <div className="sri-lanka-ai-security-benefits mt-16">
-        <div className="sri-lanka-ai-security-benefits-content bg-gradient-to-r from-primary-50 via-secondary-50 to-accent-50 rounded-2xl p-8">
-          <div className="sri-lanka-ai-security-benefits-header text-center mb-8">
-            <h3 className="sri-lanka-ai-security-benefits-title text-2xl font-heading font-bold text-neutral-dark-200 mb-4">
+      <div className="sri-lanka-ai-security-benefits mt-8 sm:mt-12 md:mt-16">
+        <div className="sri-lanka-ai-security-benefits-content bg-gradient-to-r from-primary-50 via-secondary-50 to-accent-50 rounded-xl sm:rounded-2xl p-4 sm:p-6 md:p-8">
+          <div className="sri-lanka-ai-security-benefits-header text-center mb-6 sm:mb-8">
+            <h3 className="sri-lanka-ai-security-benefits-title text-xl sm:text-2xl font-heading font-bold text-neutral-dark-200 mb-3 sm:mb-4">
               Advanced Technology for Safe Travel
             </h3>
-            <p className="sri-lanka-ai-security-benefits-description text-neutral-dark-100 max-w-3xl mx-auto">
+            <p className="sri-lanka-ai-security-benefits-description text-sm sm:text-base text-neutral-dark-100 max-w-3xl mx-auto px-2 sm:px-0">
               Our platform combines cutting-edge AI technology with robust security measures to create the safest and most intelligent tourism experience in Sri Lanka.
             </p>
           </div>

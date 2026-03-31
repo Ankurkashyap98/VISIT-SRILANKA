@@ -7,6 +7,7 @@ import { Button } from '../components/Button'
 import Stepper from '../components/tripPlanner/Stepper'
 import { useBookingStore, TransportOption } from '../store/bookingStore'
 import { Plane, Train, Bus, Car, ArrowRight, ArrowLeft, CheckCircle, Clock, MapPin, DollarSign } from 'lucide-react'
+import { getLocationName } from './TripPlannerPreferencesPage'
 
 const steps = [
   { id: 1, title: 'Preferences', description: 'Set your travel preferences' },
@@ -35,14 +36,19 @@ export default function TripPlannerTransportPage() {
   }, [preferences, itinerary])
 
   const generateTransportOptions = () => {
-    // Generate sample transport options
+    if (!preferences) return
+
+    const originName = getLocationName(preferences.origin)
+    const destinationName = getLocationName(preferences.destination)
+
+    // Generate sample transport options based on selected origin and destination
     const options: TransportOption[] = [
       {
         id: 'flight-1',
         type: 'flight',
         name: 'International Flight',
-        from: 'Colombo (CMB)',
-        to: 'Your Home City',
+        from: originName,
+        to: destinationName,
         departure: preferences.startDate,
         arrival: preferences.endDate,
         price: 800,
@@ -53,8 +59,8 @@ export default function TripPlannerTransportPage() {
         id: 'airport-transfer',
         type: 'car',
         name: 'Airport Transfer',
-        from: 'Bandaranaike International Airport',
-        to: 'Colombo City',
+        from: originName,
+        to: destinationName,
         departure: preferences.startDate,
         arrival: preferences.startDate,
         price: 50,
@@ -62,40 +68,40 @@ export default function TripPlannerTransportPage() {
         provider: 'Premium Taxi Service'
       },
       {
-        id: 'train-1',
-        type: 'train',
-        name: 'Scenic Train Journey',
-        from: 'Colombo',
-        to: 'Kandy',
+        id: 'route-transport',
+        type: preferences.origin === 'colombo' ? 'train' : 'bus',
+        name: preferences.origin === 'colombo' ? 'Scenic Train Journey' : 'Intercity Bus',
+        from: originName,
+        to: destinationName,
         departure: preferences.startDate,
         arrival: preferences.startDate,
-        price: 15,
-        duration: '3 hours',
-        provider: 'Sri Lanka Railways'
-      },
-      {
-        id: 'bus-1',
-        type: 'bus',
-        name: 'Intercity Bus',
-        from: 'Kandy',
-        to: 'Nuwara Eliya',
-        departure: preferences.startDate,
-        arrival: preferences.startDate,
-        price: 8,
-        duration: '2 hours',
-        provider: 'CTB Express'
+        price: preferences.origin === 'colombo' ? 15 : 12,
+        duration: preferences.origin === 'colombo' ? '3 hours' : '4 hours',
+        provider: preferences.origin === 'colombo' ? 'Sri Lanka Railways' : 'CTB Express'
       },
       {
         id: 'car-rental',
         type: 'car',
         name: 'Car Rental',
-        from: 'Colombo',
-        to: 'Various Destinations',
+        from: originName,
+        to: destinationName,
         departure: preferences.startDate,
         arrival: preferences.endDate,
         price: 200,
         duration: 'Full trip',
         provider: 'Budget Car Rental'
+      },
+      {
+        id: 'private-transfer',
+        type: 'car',
+        name: 'Private Transfer Service',
+        from: originName,
+        to: destinationName,
+        departure: preferences.startDate,
+        arrival: preferences.startDate,
+        price: 80,
+        duration: '2-4 hours',
+        provider: 'Premium Transport Services'
       }
     ]
 
@@ -150,14 +156,19 @@ export default function TripPlannerTransportPage() {
       
       <div className="max-w-6xl mx-auto px-4 py-8">
         {/* Progress Stepper */}
-        <Stepper steps={steps} currentStep={3} />
+        <Stepper
+  steps={steps}
+  currentStep={3}
+  totalSteps={steps.length}
+/>
+
 
         {/* Header */}
         <div className="text-center mb-8 mt-8">
-          <h1 className="text-3xl font-bold text-neutral-dark-200 mb-2">
+          <h1 className="text-3xl text-white font-bold text-neutral mb-2">
             Choose Your Transport
           </h1>
-          <p className="text-neutral-dark-100">
+          <p className="text-neutral text-white">
             Select transportation options for your Sri Lankan adventure
           </p>
         </div>
@@ -172,12 +183,12 @@ export default function TripPlannerTransportPage() {
               <Card 
                 key={option.id} 
                 className={`cursor-pointer transition-all ${
-                  isSelected ? 'ring-2 ring-primary bg-primary/5' : 'hover:shadow-md'
+                  isSelected ? 'ring-2 ring-primary border-2 border-primary bg-green-50' : 'hover:shadow-md'
                 }`}
                 onClick={() => toggleTransport(option)}
               >
                 <div className="flex items-start gap-4">
-                  {/* Icon */}
+                  {/* Icon */}  
                   <div className={`flex-shrink-0 w-12 h-12 rounded-lg flex items-center justify-center ${
                     isSelected ? 'bg-primary text-white' : 'bg-neutral-light-100 text-neutral-dark-200'
                   }`}>
@@ -230,7 +241,7 @@ export default function TripPlannerTransportPage() {
 
         {/* Selected Summary */}
         {selectedTransport.length > 0 && (
-          <Card className="mb-8 bg-primary/5">
+          <Card className="mb-8 bg-white">
             <div className="flex items-center justify-between">
               <div>
                 <h3 className="font-semibold text-neutral-dark-200 mb-1">
@@ -246,7 +257,7 @@ export default function TripPlannerTransportPage() {
 
         {/* Navigation Buttons */}
         <div className="flex justify-between items-center">
-          <Button variant="outline" onClick={handleBack}>
+          <Button onClick={handleBack}>
             <ArrowLeft className="h-4 w-4 mr-2" />
             Back to Itinerary
           </Button>

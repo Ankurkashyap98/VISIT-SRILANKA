@@ -5,7 +5,7 @@ import { Button } from './Button'
 import { LoginModal } from './LoginModal'
 import { useCurrency } from '../context/CurrencyProvider'
 import { useAuth } from '../context/AuthContext'
-import { Menu, X, Globe, DollarSign, Phone, User, LogOut } from 'lucide-react'
+import { Menu, X, Globe, DollarSign, Phone, User, UserPlus, LogOut } from 'lucide-react'
 import { TouristNavigation } from './navigation/TouristNavigation'
 import { HostNavigation } from './navigation/HostNavigation'
 import { OperatorNavigation } from './navigation/OperatorNavigation'
@@ -78,27 +78,33 @@ const Navbar = ({ className }: NavbarProps) => {
       >
         {/* Top Bar - Centered */}
         <div className="navbar-top-main bg-primary text-white">
-          <div className="navbar-top-container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="top-nav-container flex items-center justify-between text-sm gap-6">
+          <div className="navbar-top-container w-full px-3 sm:px-4 md:px-6 lg:max-w-7xl lg:mx-auto lg:px-8">
+
+            <div className="top-nav-container flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between sm:gap-4 md:gap-6 text-xs sm:text-sm md:text-base">
+ 
               {/* Left Section - Contact Number */}
-              <div className="top-nav-left flex items-center">
+              <div className="top-nav-left flex items-center justify-start sm:justify-center lg:justify-start">
                 <Link 
                   to="/support" 
                   className="flex items-center text-white hover:text-accent transition-colors touch-friendly"
                   aria-label="Emergency contact information"
                 >
-                  <Phone className="h-4 w-4 mr-1" aria-hidden="true" />
+                  <Phone className="h-3 w-3 sm:h-4 sm:w-4 mr-1 flex-shrink-0" aria-hidden="true" />
                   <span className="sr-only">Emergency contact: </span>
-                  <span className='contact-number'>+91 971 7132 668</span>
+                  <span className="text-xs sm:text-sm truncate">+91 971 7132 668</span>
                 </Link>
               </div>
 
               {/* Right Section - Language, Currency & User Actions */}
-              <div className="top-nav-right flex items-center space-x-4">
+              <div className="flex flex-wrap items-center justify-end gap-2 sm:gap-3 md:gap-4 lg:flex-nowrap lg:gap-2 max-[500px]:gap-1.5">
+ 
                 {/* Language & Currency */}
-                <div className="flex items-center space-x-4">
+                <div className="flex items-center gap-1.5 sm:gap-2 md:gap-4 px-1 sm:px-2 py-1 text-xs sm:text-sm max-[500px]:gap-1">
+
+
+
                   <div className="flex items-center">
-                    <Globe className="h-4 w-4 mr-2" aria-hidden="true" />
+                    <Globe className="h-3 w-3 sm:h-4 sm:w-4 hidden sm:inline flex-shrink-0" aria-hidden="true" />
                     <label htmlFor="language-select" className="sr-only">
                       Select language
                     </label>
@@ -106,7 +112,7 @@ const Navbar = ({ className }: NavbarProps) => {
                       id="language-select"
                       value={selectedLanguage}
                       onChange={(e) => setSelectedLanguage(e.target.value)}
-                      className="bg-transparent text-white border-none outline-none cursor-pointer touch-friendly p-0"
+                      className="bg-transparent text-white border-none outline-none cursor-pointer touch-friendly p-0 text-xs sm:text-sm max-w-[80px] sm:max-w-none"
                       aria-label="Select language"
                     >
                       {languages.map((lang) => (
@@ -117,7 +123,7 @@ const Navbar = ({ className }: NavbarProps) => {
                     </select>
                   </div>
                   <div className="flex items-center">
-                    <DollarSign className="h-4 w-4 mr-2" aria-hidden="true" />
+                    <DollarSign className="h-3 w-3 sm:h-4 sm:w-4 mr-0.5 sm:mr-1 hidden sm:inline flex-shrink-0" aria-hidden="true" />
                     <label htmlFor="currency-select" className="sr-only">
                       Select currency
                     </label>
@@ -128,7 +134,7 @@ const Navbar = ({ className }: NavbarProps) => {
                         const currency = currencies.find(c => c.code === e.target.value)
                         if (currency) setCurrentCurrency(currency)
                       }}
-                      className="bg-transparent text-white border-none outline-none cursor-pointer touch-friendly p-0"
+                      className="bg-transparent text-white border-none outline-none cursor-pointer touch-friendly p-0 text-xs sm:text-sm"
                       aria-label="Select currency"
                     >
                       {currencies.map((currency) => (
@@ -142,41 +148,42 @@ const Navbar = ({ className }: NavbarProps) => {
 
                 {/* User Actions */}
                 {user ? (
-                  <div className="flex items-center space-x-2">
+                  <div className="flex items-center gap-1 sm:gap-2 flex-wrap sm:flex-nowrap">
                     <Link 
                       to={`/dashboard/${user.userType || 'tourist'}`}
-                      className="flex items-center text-white hover:text-accent transition-colors touch-friendly"
+                      className="flex items-center gap-1 sm:gap-2 px-2 sm:px-3 py-1 sm:py-1.5 rounded-md text-xs sm:text-sm text-white hover:bg-white/10 transition whitespace-nowrap"
                       aria-label="Go to your dashboard"
                     >
-                      <User className="h-4 w-4 mr-1" aria-hidden="true" />
-                      {user.name || user.userType || 'Dashboard'}
+                      <User className="h-3 w-3 sm:h-4 sm:w-4 flex-shrink-0" aria-hidden="true" />
+                      <span className="hidden sm:inline truncate max-w-[100px] lg:max-w-none">{user.name || user.userType || 'Dashboard'}</span>
+                      <span className="sm:hidden">Account</span>
                     </Link>
                     <button
                       onClick={handleSignOut}
-                      className="flex items-center text-white hover:text-accent transition-colors touch-friendly"
+                      className="flex items-center gap-1 sm:gap-2 px-2 sm:px-3 py-1 sm:py-1.5 text-xs sm:text-sm text-white hover:bg-white/10 transition whitespace-nowrap"
                       aria-label="Sign out"
                     >
-                      <LogOut className="h-4 w-4 mr-1" aria-hidden="true" />
-                      Logout
+                      <LogOut className="h-3 w-3 sm:h-4 sm:w-4 sm:mr-1 flex-shrink-0"  />
+                      <span className="hidden sm:inline">Logout</span>
                     </button>
                   </div>
                 ) : (
                   <>
                     <button 
                       onClick={() => setIsLoginModalOpen(true)}
-                      className="flex items-center text-white hover:text-accent transition-colors touch-friendly"
+                      className="flex items-center justify-center gap-1 sm:gap-2 px-2 sm:px-3 py-1 sm:py-1.5 rounded-md text-xs sm:text-sm text-white hover:bg-white/10 transition whitespace-nowrap min-w-[36px] max-[500px]:min-w-[36px] sm:min-w-0"
                       aria-label="Sign in to your account"
                     >
-                      <User className="h-4 w-4 mr-1" aria-hidden="true" />
-                      Login
+                      <User className="h-4 w-4 flex-shrink-0" aria-hidden="true" />
+                      <span className="hidden max-[325px]:inline min-[500px]:inline">Login</span>
                     </button>
                     <Link 
                       to="/register" 
-                      className="flex items-center text-white hover:text-accent transition-colors touch-friendly"
+                      className="flex items-center justify-center gap-1 sm:gap-2 px-2 sm:px-3 py-1 sm:py-1.5 rounded-md text-xs sm:text-sm text-white hover:bg-white/10 transition whitespace-nowrap min-w-[36px] max-[500px]:min-w-[36px] sm:min-w-0"
                       aria-label="Create a new account"
                     >
-                      <User className="h-4 w-4 mr-1" aria-hidden="true" />
-                      Register
+                      <UserPlus className="h-4 w-4 flex-shrink-0" aria-hidden="true" />
+                      <span className="hidden max-[325px]:inline min-[500px]:inline">Register</span>
                     </Link>
                   </>
                 )}
@@ -186,8 +193,8 @@ const Navbar = ({ className }: NavbarProps) => {
         </div>
 
       {/* Main Navigation */}
-      <div className="navbar-main max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="navbar-main-container flex items-center justify-between h-16">
+      <div className="navbar-main w-full px-3 sm:px-4 md:px-6 lg:max-w-7xl lg:mx-auto lg:px-8">
+        <div className="navbar-main-container flex h-14 sm:h-16 md:h-18 items-center">
           {/* Logo - Left Side */}
           <div className="flex items-center flex-shrink-0">
             <Link 
@@ -196,15 +203,15 @@ const Navbar = ({ className }: NavbarProps) => {
               style={{ padding: 0 }}
               aria-label="Visit Sri Lanka - Home"
             >
-              <div className="navbar-logo-image relative w-10 h-10">
+              <div className="navbar-logo-image relative w-8 h-8 sm:w-10 sm:h-10 flex-shrink-0">
                 <img 
-                  src={`${import.meta.env.BASE_URL}images/monogram.png`}
+                  src={`${import.meta.env.BASE_URL}/images/monogram.png`}
                   alt="Sri Lanka Tourism Logo" 
-                  className="w-10 h-10 object-contain"
+                  className="w-full h-full object-contain"
                 />
               </div>
-              <div className='logo-text-container ml-2'>
-                <h1 className="font-bold text-sm" style={{ 
+              <div className='logo-text-container ml-1.5 sm:ml-2'>
+                <h1 className="font-bold text-xs sm:text-sm" style={{ 
                   fontFamily: '"Inter", "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif',
                   letterSpacing: '0.05em',
                   textShadow: '0 1px 2px rgba(0,0,0,0.1)',
@@ -213,21 +220,21 @@ const Navbar = ({ className }: NavbarProps) => {
                 }}>
                   <span style={{ color: '#0E485D' }}>VISIT</span><span style={{ color: '#697627' }}>SRILANKA</span>
                 </h1>
-                <p className="text-xs text-neutral-dark-100" style={{ marginBottom: '0px' }}>Discover. Connect. Experience.</p>
+                <p className="text-[10px] sm:text-xs text-neutral-dark-100 hidden sm:block" style={{ marginBottom: '0px' }}>Discover. Connect. Experience.</p>
               </div>
             </Link>
           </div>
 
-          {/* Desktop Navigation - Center */}
-          <div className="flex-1 flex justify-center">
+          {/* Desktop Navigation - Right */}
+          <div className="flex-1 flex justify-between lg:justify-center xl:justify-end">
             {getNavigationComponent()}
           </div>
 
-          {/* Mobile menu button - Right Side */}
-          <div className="flex-shrink-0 md:hidden">
+          {/* Mobile menu button - Right Side (visible up to 1024px, hidden from 1025px) */}
+          <div className="flex-shrink-0 min-[1025px]:hidden">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="text-neutral-dark-100 hover:text-primary transition-colors touch-friendly p-2"
+              className="text-neutral-dark-100 hover:text-primary transition-colors touch-friendly p-2 mt-4"
               aria-label={isMenuOpen ? "Close navigation menu" : "Open navigation menu"}
               aria-expanded={isMenuOpen}
               aria-controls="mobile-menu"
@@ -238,18 +245,18 @@ const Navbar = ({ className }: NavbarProps) => {
         </div>
       </div>
 
-      {/* Mobile Navigation */}
+      {/* Mobile Navigation (visible up to 1024px when open, hidden from 1025px) */}
       {isMenuOpen && (
         <div 
           id="mobile-menu"
-          className="sri-lanka-navbar-mobile md:hidden bg-white border-t border-neutral-light-200"
+          className="sri-lanka-navbar-mobile min-[1025px]:hidden bg-white border-t border-neutral-light-200"
           role="navigation"
           aria-label="Mobile navigation"
         >
           <div className="sri-lanka-navbar-mobile-container px-4 py-2 space-y-1">
             <nav role="menu" aria-label="Mobile navigation menu">
               {/* Mobile navigation will be handled by individual navigation components */}
-              <div className="md:hidden">
+              <div className="max-[1024px]:block min-[1025px]:hidden">
                 {getNavigationComponent(true)}
               </div>
             </nav>

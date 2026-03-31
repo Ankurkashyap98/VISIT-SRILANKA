@@ -6,8 +6,9 @@ import { Card } from '../components/Card'
 import { Button } from '../components/Button'
 import Stepper from '../components/tripPlanner/Stepper'
 import { useBookingStore } from '../store/bookingStore'
-import { Calendar, MapPin, Clock, Utensils, Hotel, Car, Camera, ArrowRight, ArrowLeft, CheckCircle } from 'lucide-react'
+import { Calendar, MapPin, Clock, Utensils, Hotel, Car, Camera, ArrowRight, ArrowLeft, CheckCircle, Navigation } from 'lucide-react'
 import { getImageUrl } from '../lib/utils'
+import { getLocationName } from './TripPlannerPreferencesPage'
 
 const steps = [
   { id: 1, title: 'Preferences', description: 'Set your travel preferences' },
@@ -220,16 +221,29 @@ export default function TripPlannerItineraryPage() {
       
       <div className="max-w-6xl mx-auto px-4 py-8">
         {/* Progress Stepper */}
-        <Stepper steps={steps} currentStep={2} />
+        <Stepper
+  steps={steps}
+  currentStep={2}
+  totalSteps={steps.length}
+/>
+
 
         {/* Header */}
         <div className="text-center mb-8 mt-8">
-          <h1 className="text-3xl font-bold text-neutral-dark-200 mb-2">
+          <h1 className="text-3xl text-white font-bold  mb-2">
             Your Personalized Itinerary
           </h1>
-          <p className="text-neutral-dark-100">
+          <p className=" text-white text-[18px] mb-4">
             Based on your preferences, we've created a perfect itinerary for your Sri Lankan adventure
           </p>
+          {preferences?.origin && preferences?.destination && (
+            <div className="flex items-center justify-center gap-2 text-primary text-xl font-semibold mb-2">
+              <Navigation className="h-5 w-5" />
+              <span>{getLocationName(preferences.origin)}</span>
+              <ArrowRight className="h-4 w-4" />
+              <span>{getLocationName(preferences.destination)}</span>
+            </div>
+          )}
         </div>
 
         {/* Itinerary Content */}
@@ -315,7 +329,7 @@ export default function TripPlannerItineraryPage() {
 
         {/* Navigation Buttons */}
         <div className="flex justify-between items-center mt-8">
-          <Button variant="outline" onClick={handleBack}>
+          <Button onClick={handleBack}>
             <ArrowLeft className="h-4 w-4 mr-2" />
             Back to Preferences
           </Button>

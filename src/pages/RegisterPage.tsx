@@ -113,15 +113,15 @@ export default function RegisterPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-neutral-light-50 to-neutral-light-100">
+    <div className="min-h-screen bg-gray-100">
       <Navbar />
       
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="text-center mb-8">
-          <h1 className="text-3xl md:text-4xl font-heading font-bold text-neutral-dark-200 mb-4">
+          <h1 className="text-3xl md:text-4xl font-heading font-bold text-black mb-4">
             Join Sri Lanka Tourism
           </h1>
-          <p className="text-lg text-neutral-dark-100">
+          <p className="text-lg text-black">
             Create your account and start your personalized Sri Lankan journey
           </p>
         </div>

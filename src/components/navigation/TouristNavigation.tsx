@@ -50,8 +50,8 @@ const TouristNavigation = ({ className, isMobile = false }: TouristNavigationPro
   }
 
   return (
-    <nav className={cn("nav-container hidden md:flex items-center justify-center", className)} aria-label="Tourist navigation">
-      <ul className="flex items-center space-x-1" role="menubar">
+    <nav className={cn("nav-container hidden min-[1025px]:flex items-center justify-center", className)} aria-label="Tourist navigation">
+      <ul className="flex items-center space-x-1 flex-wrap" role="menubar">
         {navigation.map((item) => {
           const isActive = location.pathname === item.href || (item.href === '/' && location.pathname === '/')
           return (
